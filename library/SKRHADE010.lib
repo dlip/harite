@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SKRHADE010
+#/2364835/1398956/2.50/8/4/Switch
+DEF SKRHADE010 S 0 30 Y Y 1 F N
+F0 "S" 1250 600 50 H V L CNN
+F1 "SKRHADE010" 1250 500 50 H V L CNN
+F2 "SKRHADE010" 1250 400 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/1239637" 1250 300 50 H I L CNN
+F4 "Multi-Directional Switches 4-directn cntr push w/ boss 500K cycles" 1250 200 50 H I L CNN "Description"
+F5 "5" 1250 100 50 H I L CNN "Height"
+F6 "ALPS Electric" 1250 0 50 H I L CNN "Manufacturer_Name"
+F7 "SKRHADE010" 1250 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "688-SKRHAD" 1250 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRHADE010?qs=seHrhfPpLDxlAi0Di%252BJD5Q%3D%3D" 1250 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1250 -400 50 H I L CNN "Arrow Part Number"
+F11 "" 1250 -500 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X A 1 0 0 200 R 50 50 0 0 P
+X CENTER 2 0 -100 200 R 50 50 0 0 P
+X C 3 0 -200 200 R 50 50 0 0 P
+X B 4 1400 0 200 L 50 50 0 0 P
+X COMMON 5 1400 -100 200 L 50 50 0 0 P
+X D 6 1400 -200 200 L 50 50 0 0 P
+X MP1 MP1 700 600 200 D 50 50 0 0 P
+X MP2 MP2 700 -800 200 U 50 50 0 0 P
+P 5 0 1 6 200 400 1200 400 1200 -600 200 -600 200 400 N
+ENDDRAW
+ENDDEF
+#
+#End Library
