@@ -447,7 +447,7 @@
 				)
 			)
 		)
-		(symbol "mcu:rp2040-zero"
+		(symbol "ScottoKeebs:MCU_RP2040_Zero"
 			(pin_names
 				(offset 1.016)
 			)
@@ -462,7 +462,7 @@
 					)
 				)
 			)
-			(property "Value" "rp2040-zero"
+			(property "Value" "RP2040_Zero"
 				(at 0 12.7 0)
 				(effects
 					(font
@@ -470,7 +470,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ScottoKeebs_MCU:RP2040_Zero"
 				(at -8.89 5.08 0)
 				(effects
 					(font
@@ -497,7 +497,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "rp2040-zero_0_1"
+			(symbol "MCU_RP2040_Zero_0_1"
 				(rectangle
 					(start -10.16 11.43)
 					(end 10.16 -13.97)
@@ -510,7 +510,7 @@
 					)
 				)
 			)
-			(symbol "rp2040-zero_1_1"
+			(symbol "MCU_RP2040_Zero_1_1"
 				(pin bidirectional line
 					(at 12.7 8.89 180)
 					(length 2.54)
@@ -1068,7 +1068,7 @@
 	)
 	(global_label "Col 2"
 		(shape input)
-		(at 342.9 71.12 270)
+		(at 321.31 69.85 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1078,7 +1078,7 @@
 		)
 		(uuid "17a98c37-1208-4071-aa97-fdbffdfe50f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.9 79.3665 90)
+			(at 321.31 78.0965 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1134,7 +1134,7 @@
 	)
 	(global_label "Row 4"
 		(shape input)
-		(at 327.66 58.42 180)
+		(at 306.07 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1144,7 +1144,7 @@
 		)
 		(uuid "1f4129b4-b5be-468b-9fd7-9d94752b5aed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.7482 58.42 0)
+			(at 297.1582 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +1288,7 @@
 	)
 	(global_label "Col 4"
 		(shape input)
-		(at 337.82 71.12 270)
+		(at 316.23 69.85 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1298,7 +1298,7 @@
 		)
 		(uuid "7f201460-e1f2-4e3a-a70a-f33c45539919")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.82 79.3665 90)
+			(at 316.23 78.0965 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1332,7 @@
 	)
 	(global_label "Col 3"
 		(shape input)
-		(at 340.36 71.12 270)
+		(at 318.77 69.85 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1342,7 +1342,7 @@
 		)
 		(uuid "89283517-8b71-42ab-bad6-1ac7af6e6566")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 340.36 79.3665 90)
+			(at 318.77 78.0965 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1376,7 @@
 	)
 	(global_label "Row 5"
 		(shape input)
-		(at 327.66 55.88 180)
+		(at 306.07 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1386,7 +1386,7 @@
 		)
 		(uuid "95ed1fbf-b9aa-4b7d-ac04-d22ab050de10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.7482 55.88 0)
+			(at 297.1582 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +1552,7 @@
 	)
 	(global_label "Col 5"
 		(shape input)
-		(at 335.28 71.12 270)
+		(at 313.69 69.85 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1562,7 +1562,7 @@
 		)
 		(uuid "bc9b1b0f-6149-439d-8a6c-2ab0e6b31fc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.28 79.3665 90)
+			(at 313.69 78.0965 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1574,7 @@
 	)
 	(global_label "Row 3"
 		(shape input)
-		(at 327.66 60.96 180)
+		(at 306.07 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1584,7 +1584,7 @@
 		)
 		(uuid "c4375902-f52d-46ba-b971-4d30acc28f0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.7482 60.96 0)
+			(at 297.1582 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +1706,7 @@
 	)
 	(global_label "Row 2"
 		(shape input)
-		(at 327.66 63.5 180)
+		(at 306.07 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1716,7 +1716,7 @@
 		)
 		(uuid "dee98889-e8d9-49c4-a8cd-58fe1ccfd45d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.7482 63.5 0)
+			(at 297.1582 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,7 +1772,7 @@
 	)
 	(global_label "Col 1"
 		(shape input)
-		(at 345.44 71.12 270)
+		(at 323.85 69.85 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1782,7 +1782,7 @@
 		)
 		(uuid "e51aab70-649f-4bc1-b075-3023d4793cb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.44 79.3665 90)
+			(at 323.85 78.0965 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,7 +1816,7 @@
 	)
 	(global_label "Row 1"
 		(shape input)
-		(at 327.66 66.04 180)
+		(at 306.07 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1826,7 +1826,7 @@
 		)
 		(uuid "ef774b9a-93ed-4f06-80b1-4ce3ff700630")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.7482 66.04 0)
+			(at 297.1582 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +1884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 233.68 58.42 0)
 			(effects
 				(font
@@ -1970,7 +1970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 279.4 140.97 0)
 			(effects
 				(font
@@ -2040,7 +2040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08a11a70-3dd8-4ce2-a587-b6b8871e36a8")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 67.31 67.31 0)
 			(effects
 				(font
@@ -2056,7 +2056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 67.31 60.96 0)
 			(effects
 				(font
@@ -2110,7 +2110,7 @@
 		(instances
 			(project "harite"
 				(path "/feb70c3f-3e34-4f8f-9694-07d231f2d237"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2302,7 +2302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 276.86 55.88 0)
 			(effects
 				(font
@@ -2388,7 +2388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 279.4 138.43 0)
 			(effects
 				(font
@@ -2634,7 +2634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 93.98 60.96 0)
 			(effects
 				(font
@@ -2720,7 +2720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 163.83 58.42 0)
 			(effects
 				(font
@@ -2781,137 +2781,6 @@
 		)
 	)
 	(symbol
-		(lib_id "mcu:rp2040-zero")
-		(at 340.36 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ec1b8e8-d731-459a-ae9b-7cde687b8a8c")
-		(property "Reference" "U1"
-			(at 340.36 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "rp2040-zero"
-			(at 340.36 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:rp2040-zero-tht"
-			(at 331.47 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 331.47 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 340.36 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "e6c1bec4-2c9a-4b99-a460-030bd58833a8")
-		)
-		(pin "8"
-			(uuid "031fd002-e837-43be-9445-25d925c306f1")
-		)
-		(pin "1"
-			(uuid "96c1b8c1-32ed-4508-ae7e-877fdc6617e0")
-		)
-		(pin "17"
-			(uuid "ba39f0fd-ddba-4a32-b21f-8d8d664c11da")
-		)
-		(pin "14"
-			(uuid "cb36ff0a-972a-4b36-91d2-c0457d453e36")
-		)
-		(pin "3"
-			(uuid "dce9d402-1dd6-4cae-8b30-deb9e6670453")
-		)
-		(pin "2"
-			(uuid "48b69ab8-4df4-4e3d-bb2c-0a46d1d9d767")
-		)
-		(pin "23"
-			(uuid "c9a97123-fa8f-4c35-a116-89ff03e293a2")
-		)
-		(pin "16"
-			(uuid "3e3b2675-c6ed-4edb-a2f8-345d9c43b7fe")
-		)
-		(pin "9"
-			(uuid "e13db97a-abf0-4aa2-a835-6c155e5d4403")
-		)
-		(pin "11"
-			(uuid "628829c5-8fbe-4c86-9591-213c39996113")
-		)
-		(pin "21"
-			(uuid "299c21c3-727d-4aa6-abfb-03e631724777")
-		)
-		(pin "22"
-			(uuid "fb09c33c-1b9b-43db-8915-b5bdd3b0c489")
-		)
-		(pin "4"
-			(uuid "1e90cc2f-1022-4b14-94a7-60c3e960b964")
-		)
-		(pin "6"
-			(uuid "e61ebd00-e537-4087-b0d6-f2ee58e45b54")
-		)
-		(pin "10"
-			(uuid "5eb4ce0f-968e-4a4b-84c5-7661e1cf59ae")
-		)
-		(pin "13"
-			(uuid "8f121568-ef69-4427-8597-667671b5a313")
-		)
-		(pin "15"
-			(uuid "18927f20-ee6c-4c6f-a554-aac2aec12653")
-		)
-		(pin "18"
-			(uuid "531ed884-d52a-4614-9af4-63767de865b0")
-		)
-		(pin "5"
-			(uuid "08bf6579-0adf-4bf8-ba64-1309504960c2")
-		)
-		(pin "7"
-			(uuid "53df4afc-ef13-4d57-8834-e65f366de459")
-		)
-		(pin "20"
-			(uuid "3811786b-f657-4c24-b20b-42c6db9b2cf4")
-		)
-		(pin "19"
-			(uuid "c11c3b75-effb-4766-a6d4-71870cfd787c")
-		)
-		(instances
-			(project "harite"
-				(path "/feb70c3f-3e34-4f8f-9694-07d231f2d237"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 279.4 135.89 0)
 		(unit 1)
@@ -2937,7 +2806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 279.4 135.89 0)
 			(effects
 				(font
@@ -3167,7 +3036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69ab634a-7137-4e23-873a-e2b1e5085127")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 24.13 52.07 0)
 			(effects
 				(font
@@ -3183,7 +3052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 24.13 58.42 0)
 			(effects
 				(font
@@ -3237,7 +3106,7 @@
 		(instances
 			(project "harite"
 				(path "/feb70c3f-3e34-4f8f-9694-07d231f2d237"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3269,7 +3138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 163.83 60.96 0)
 			(effects
 				(font
@@ -3355,7 +3224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 207.01 60.96 0)
 			(effects
 				(font
@@ -3441,7 +3310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 67.31 55.88 0)
 			(effects
 				(font
@@ -3662,6 +3531,137 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:MCU_RP2040_Zero")
+		(at 318.77 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9098a25c-e6e7-4afb-b287-1886be841e34")
+		(property "Reference" "U1"
+			(at 318.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RP2040_Zero"
+			(at 318.77 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MCU:RP2040_Zero"
+			(at 309.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 318.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c53bf2f1-ca62-4989-ac9b-4c714036567b")
+		)
+		(pin "14"
+			(uuid "383b98ae-e618-44c1-a65c-a594a0f76970")
+		)
+		(pin "20"
+			(uuid "aa1bfd4e-7744-401d-8a00-891e9d38b82f")
+		)
+		(pin "7"
+			(uuid "6440bac0-6378-4433-bbd3-53c9ec1c941f")
+		)
+		(pin "21"
+			(uuid "ce8509da-bc4c-45aa-9bc1-45d6914adef4")
+		)
+		(pin "18"
+			(uuid "d405e039-044d-47f8-8053-60216d9108e8")
+		)
+		(pin "19"
+			(uuid "9664f204-de3a-4632-ab24-a1f1ec11995c")
+		)
+		(pin "23"
+			(uuid "a19b8baa-8e93-4c8c-a5a0-39e747839a1d")
+		)
+		(pin "22"
+			(uuid "07a1b94b-d0a4-4872-a2fe-3e1ff27db1eb")
+		)
+		(pin "6"
+			(uuid "47f90b76-ca8b-463b-9303-172ff3334229")
+		)
+		(pin "1"
+			(uuid "fc519ed2-ba5e-4690-878b-f75e646fa862")
+		)
+		(pin "10"
+			(uuid "9013ce12-07c8-4771-998f-1194038817c9")
+		)
+		(pin "3"
+			(uuid "a0c9b88a-21e6-4ece-8a93-3b420690fc68")
+		)
+		(pin "4"
+			(uuid "0c3f279f-4d04-45f7-b1e4-6dca9111f820")
+		)
+		(pin "8"
+			(uuid "d8a8e754-d18d-4838-b102-3abccd8bcb53")
+		)
+		(pin "9"
+			(uuid "6579b35c-44de-4090-8046-6ded3e8e84fd")
+		)
+		(pin "16"
+			(uuid "213842cb-4fe4-43a4-81ee-3fe73334bc1c")
+		)
+		(pin "15"
+			(uuid "09b8c50c-27c2-424d-b58b-58f106c24b22")
+		)
+		(pin "5"
+			(uuid "b03450d8-f1c6-47e8-81a1-7a9808fbcc8b")
+		)
+		(pin "11"
+			(uuid "fd0f15ad-bb01-4587-9ed7-e6612c62697d")
+		)
+		(pin "13"
+			(uuid "357bc6be-c03f-4ca1-9f81-2a999a8d77a6")
+		)
+		(pin "12"
+			(uuid "648071a8-921b-42c6-989e-7f0f741a927f")
+		)
+		(pin "17"
+			(uuid "40bdf98f-af77-4604-b629-70f1cb7ef3e1")
+		)
+		(instances
+			(project "harite"
+				(path "/feb70c3f-3e34-4f8f-9694-07d231f2d237"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 163.83 55.88 0)
 		(unit 1)
@@ -3687,7 +3687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 163.83 55.88 0)
 			(effects
 				(font
@@ -3773,7 +3773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 322.58 140.97 0)
 			(effects
 				(font
@@ -3843,7 +3843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0687533-cda4-4574-91b7-311d98213ab9")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 24.13 54.61 0)
 			(effects
 				(font
@@ -3859,7 +3859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 24.13 60.96 0)
 			(effects
 				(font
@@ -3913,7 +3913,7 @@
 		(instances
 			(project "harite"
 				(path "/feb70c3f-3e34-4f8f-9694-07d231f2d237"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4105,7 +4105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 276.86 60.96 0)
 			(effects
 				(font
@@ -4191,7 +4191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 24.13 55.88 0)
 			(effects
 				(font
@@ -4277,7 +4277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 207.01 55.88 0)
 			(effects
 				(font
@@ -4363,7 +4363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 93.98 58.42 0)
 			(effects
 				(font
@@ -4449,7 +4449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 137.16 55.88 0)
 			(effects
 				(font
@@ -4535,7 +4535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 233.68 60.96 0)
 			(effects
 				(font
@@ -4621,7 +4621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 93.98 55.88 0)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 233.68 55.88 0)
 			(effects
 				(font
@@ -4793,7 +4793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 322.58 135.89 0)
 			(effects
 				(font
@@ -4879,7 +4879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:D_SOD123"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 137.16 60.96 0)
 			(effects
 				(font
