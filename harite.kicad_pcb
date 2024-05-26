@@ -141,9 +141,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "1272f32a-0dfb-424d-b00d-79e98f79a9cf")
-		(at 120.525 73.875)
+		(at 199.25 95.25 90)
 		(property "Reference" "D25"
-			(at 0 1.925 0)
+			(at 0 1.925 270)
 			(layer "F.SilkS")
 			(uuid "f603df40-8343-4954-970b-5cbef025f835")
 			(effects
@@ -154,7 +154,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9cf90679-33ec-441e-b730-b70a08cd3ef0")
@@ -166,7 +166,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -178,7 +178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -190,7 +190,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -202,7 +202,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -215,7 +215,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -233,44 +233,14 @@
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
+			(start 2.8 -1.2)
+			(end 2.8 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "acc6e035-5a1c-46a5-b227-8dff9ca125db")
-		)
-		(fp_line
-			(start -3.2 1.2)
-			(end -3.2 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "537f71be-c2d9-473c-8e75-f37f62fffce4")
-		)
-		(fp_line
-			(start -3.075 1.2)
-			(end -3.075 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6cf938c6-3a62-4aa7-9786-2ffdcb7bb8bf")
-		)
-		(fp_line
-			(start -2.925 -1.2)
-			(end -2.925 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ae15075b-384f-4ae1-8e3d-d110dcad4e1f")
+			(uuid "9a440d9c-0f00-4d4d-bd1e-7785cea4646e")
 		)
 		(fp_line
 			(start -2.8 -1.2)
@@ -283,14 +253,24 @@
 			(uuid "49a72c16-18b2-44a5-a97c-52ffd63d25ee")
 		)
 		(fp_line
-			(start 2.8 -1.2)
-			(end 2.8 1.2)
+			(start -2.925 -1.2)
+			(end -2.925 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9a440d9c-0f00-4d4d-bd1e-7785cea4646e")
+			(uuid "ae15075b-384f-4ae1-8e3d-d110dcad4e1f")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "acc6e035-5a1c-46a5-b227-8dff9ca125db")
 		)
 		(fp_line
 			(start 2.8 1.2)
@@ -302,8 +282,28 @@
 			(layer "F.SilkS")
 			(uuid "757a5e7d-049c-4eb8-bd27-2b0ceecc0167")
 		)
+		(fp_line
+			(start -3.075 1.2)
+			(end -3.075 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6cf938c6-3a62-4aa7-9786-2ffdcb7bb8bf")
+		)
+		(fp_line
+			(start -3.2 1.2)
+			(end -3.2 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "537f71be-c2d9-473c-8e75-f37f62fffce4")
+		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 5 "Row 5")
@@ -312,7 +312,7 @@
 			(uuid "2f03d25e-b61c-4d7e-9c67-62d112d78b6a")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 30 "Net-(D25-A)")
@@ -324,9 +324,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "1d48b2f1-3647-4729-94a7-faea6b368182")
-		(at 113.325 73.875)
+		(at 172.25 27.75 -90)
 		(property "Reference" "D17"
-			(at 0 1.925 0)
+			(at 0 1.925 90)
 			(layer "F.SilkS")
 			(uuid "bdd457b1-388b-4f2e-aa0e-19941b1dd2e3")
 			(effects
@@ -337,7 +337,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a5a652ed-8f0c-48dd-b2a7-b0bd86804e76")
@@ -349,7 +349,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -361,7 +361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -373,7 +373,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -385,7 +385,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -398,7 +398,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -415,16 +415,6 @@
 		(sheetname "Root")
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "451e9380-bf31-4dff-8b89-7836e9fe2c86")
-		)
 		(fp_line
 			(start -3.2 1.2)
 			(end -3.2 -1.2)
@@ -444,6 +434,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "fafe69e7-805a-48dd-9997-6346c24e846c")
+		)
+		(fp_line
+			(start 2.8 1.2)
+			(end -3.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6b45f3a8-cdb5-4e1a-975b-afa9068d85a7")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "451e9380-bf31-4dff-8b89-7836e9fe2c86")
 		)
 		(fp_line
 			(start -2.925 -1.2)
@@ -475,18 +485,8 @@
 			(layer "F.SilkS")
 			(uuid "d1356a25-eb31-4b68-9c2f-4a4d1113c63c")
 		)
-		(fp_line
-			(start 2.8 1.2)
-			(end -3.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6b45f3a8-cdb5-4e1a-975b-afa9068d85a7")
-		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 9 "Row 3")
@@ -495,7 +495,7 @@
 			(uuid "5ca6dbe2-7cb8-4526-bc49-9be6060264c5")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 22 "Net-(D17-A)")
@@ -507,9 +507,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "1e69cd8e-8d37-4d53-b858-1ee0f690bdbb")
-		(at 98.925 88.275)
+		(at 113.5 33 -90)
 		(property "Reference" "D5"
-			(at 0 1.925 0)
+			(at 0 1.925 90)
 			(layer "F.SilkS")
 			(uuid "5ea816ce-e20f-407c-9f8a-675f9a4a208a")
 			(effects
@@ -520,7 +520,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "612ddf03-30d7-4c99-b34a-4e2ecc7cbbd8")
@@ -532,7 +532,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -544,7 +544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -556,7 +556,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -568,7 +568,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -581,7 +581,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -598,16 +598,6 @@
 		(sheetname "Root")
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "aeb7300f-b309-4884-969f-d7335422382e")
-		)
 		(fp_line
 			(start -3.2 1.2)
 			(end -3.2 -1.2)
@@ -627,6 +617,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "3ac1cdbf-1959-4134-a18f-c03502eac268")
+		)
+		(fp_line
+			(start 2.8 1.2)
+			(end -3.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9f3eab9b-cf9d-4db2-826c-fbb688e458b4")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aeb7300f-b309-4884-969f-d7335422382e")
 		)
 		(fp_line
 			(start -2.925 -1.2)
@@ -658,18 +668,8 @@
 			(layer "F.SilkS")
 			(uuid "a870bf76-a7c0-4004-962e-2cfb2312eea9")
 		)
-		(fp_line
-			(start 2.8 1.2)
-			(end -3.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9f3eab9b-cf9d-4db2-826c-fbb688e458b4")
-		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 9 "Row 3")
@@ -678,7 +678,7 @@
 			(uuid "0230802c-6562-4307-9c8e-02607696c632")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 10 "Net-(D5-A)")
@@ -690,7 +690,7 @@
 	(footprint "footprints:SKRHADE010"
 		(layer "F.Cu")
 		(uuid "21caf505-6007-4845-97ac-5215085b8dd0")
-		(at 140.336332 36.423524 -45)
+		(at 158.886218 31.113782 -45)
 		(descr "SKRHADE010-1")
 		(tags "Switch")
 		(property "Reference" "S3"
@@ -1411,9 +1411,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "232fcb8a-74ca-417c-98b2-90482f6a5b6f")
-		(at 102.5 59.2 90)
+		(at 109.5 33 -90)
 		(property "Reference" "D2"
-			(at 0 1.925 -90)
+			(at 0 1.925 90)
 			(layer "F.SilkS")
 			(uuid "60df91df-8a1f-46ff-95dd-56ff7daf5de0")
 			(effects
@@ -1424,7 +1424,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 -90)
+			(at 0 -1.925 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c766f29f-77ac-4d5a-8250-a02aef2ddbcd")
@@ -1436,7 +1436,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1448,7 +1448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1460,7 +1460,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1472,7 +1472,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1485,7 +1485,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1503,54 +1503,14 @@
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.8 -1.2)
-			(end 2.8 1.2)
+			(start -3.2 1.2)
+			(end -3.2 -1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "566faade-09c4-4b56-be92-dbdd630c919b")
-		)
-		(fp_line
-			(start -2.8 -1.2)
-			(end -2.8 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "edc8b8b0-2e05-4bb5-9d4a-4de98ae12a4a")
-		)
-		(fp_line
-			(start -2.925 -1.2)
-			(end -2.925 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0317c464-8cde-4f42-8841-158e5f7c1c9b")
-		)
-		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9967718c-4db7-40a8-a412-b689dab0682c")
-		)
-		(fp_line
-			(start 2.8 1.2)
-			(end -3.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "58e08544-c7d6-42e9-abd1-8843e582c5bf")
+			(uuid "dacd271e-1aea-4d35-bb71-6c5d558e4433")
 		)
 		(fp_line
 			(start -3.075 1.2)
@@ -1563,17 +1523,57 @@
 			(uuid "c13b3447-235f-4dee-8a16-329295a2b636")
 		)
 		(fp_line
-			(start -3.2 1.2)
-			(end -3.2 -1.2)
+			(start 2.8 1.2)
+			(end -3.2 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dacd271e-1aea-4d35-bb71-6c5d558e4433")
+			(uuid "58e08544-c7d6-42e9-abd1-8843e582c5bf")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9967718c-4db7-40a8-a412-b689dab0682c")
+		)
+		(fp_line
+			(start -2.925 -1.2)
+			(end -2.925 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0317c464-8cde-4f42-8841-158e5f7c1c9b")
+		)
+		(fp_line
+			(start -2.8 -1.2)
+			(end -2.8 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "edc8b8b0-2e05-4bb5-9d4a-4de98ae12a4a")
+		)
+		(fp_line
+			(start 2.8 -1.2)
+			(end 2.8 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "566faade-09c4-4b56-be92-dbdd630c919b")
 		)
 		(pad "1" smd rect
-			(at -1.7 0 90)
+			(at -1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 4 "Row 2")
@@ -1582,7 +1582,7 @@
 			(uuid "4a34523a-fa58-4594-b546-7312de8fb658")
 		)
 		(pad "2" smd rect
-			(at 1.7 0 90)
+			(at 1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 3 "Net-(D2-A)")
@@ -2003,9 +2003,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "2b090d57-5ebf-4e4d-81e0-8db9657b6680")
-		(at 98.925 95.475)
+		(at 131.75 27.5 -90)
 		(property "Reference" "D7"
-			(at 0 1.925 0)
+			(at 0 1.925 90)
 			(layer "F.SilkS")
 			(uuid "6d02e81b-d9c0-44c2-aa18-e72f95fab2b8")
 			(effects
@@ -2016,7 +2016,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f312b661-da5c-473b-b930-e60dc260d929")
@@ -2028,7 +2028,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2040,7 +2040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2052,7 +2052,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2064,7 +2064,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2077,7 +2077,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2094,16 +2094,6 @@
 		(sheetname "Root")
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3f2ec481-8834-47ec-92f8-7327eb053e5e")
-		)
 		(fp_line
 			(start -3.2 1.2)
 			(end -3.2 -1.2)
@@ -2123,6 +2113,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "65087312-8492-4b83-9c62-80f9173c7268")
+		)
+		(fp_line
+			(start 2.8 1.2)
+			(end -3.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "375466c2-b3f9-47aa-9050-e75df87c9f3e")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3f2ec481-8834-47ec-92f8-7327eb053e5e")
 		)
 		(fp_line
 			(start -2.925 -1.2)
@@ -2154,18 +2164,8 @@
 			(layer "F.SilkS")
 			(uuid "283f31d5-2082-4a95-89db-aea695f1d2b0")
 		)
-		(fp_line
-			(start 2.8 1.2)
-			(end -3.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "375466c2-b3f9-47aa-9050-e75df87c9f3e")
-		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 9 "Row 3")
@@ -2174,7 +2174,7 @@
 			(uuid "395e3274-ca57-4535-b42e-eb9c726f2e7e")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 12 "Net-(D7-A)")
@@ -2186,9 +2186,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "364a1ced-e12e-434c-8f41-574cc16e9dcf")
-		(at 113.325 77.475)
+		(at 168.25 27.75 -90)
 		(property "Reference" "D18"
-			(at 0 1.925 0)
+			(at 0 1.925 90)
 			(layer "F.SilkS")
 			(uuid "a18b0486-da7a-4d62-80b3-08374a35b465")
 			(effects
@@ -2199,7 +2199,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7325caba-2dcb-47c8-ac77-1d55f40a61d6")
@@ -2211,7 +2211,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2223,7 +2223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2235,7 +2235,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2247,7 +2247,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2260,7 +2260,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2277,16 +2277,6 @@
 		(sheetname "Root")
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "14426662-8460-47c2-9b3f-c53ebe3f95b4")
-		)
 		(fp_line
 			(start -3.2 1.2)
 			(end -3.2 -1.2)
@@ -2306,6 +2296,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "c050890c-f494-4c1b-a984-292340038313")
+		)
+		(fp_line
+			(start 2.8 1.2)
+			(end -3.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e6f26e0a-cdc8-44de-a8af-bd8c22695f39")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "14426662-8460-47c2-9b3f-c53ebe3f95b4")
 		)
 		(fp_line
 			(start -2.925 -1.2)
@@ -2337,18 +2347,8 @@
 			(layer "F.SilkS")
 			(uuid "02c1e441-fa55-4eb8-b867-342f2a361606")
 		)
-		(fp_line
-			(start 2.8 1.2)
-			(end -3.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e6f26e0a-cdc8-44de-a8af-bd8c22695f39")
-		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 4 "Row 2")
@@ -2357,7 +2357,7 @@
 			(uuid "79fa99ba-d72c-46b5-a418-8d9366997e6e")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 23 "Net-(D18-A)")
@@ -2369,9 +2369,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "45a95c74-df7d-48a4-821f-8a6fc2d6fb68")
-		(at 113.325 99.075)
+		(at 205.5 94.75 90)
 		(property "Reference" "D24"
-			(at 0 1.925 0)
+			(at 0 1.925 270)
 			(layer "F.SilkS")
 			(uuid "f93779fd-1f3f-457b-8bda-2bfe14fbe0b6")
 			(effects
@@ -2382,7 +2382,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0beb6d5b-a6ee-44fb-b87b-29d9c6f8f2b9")
@@ -2394,7 +2394,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2406,7 +2406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2418,7 +2418,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2430,7 +2430,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2443,7 +2443,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2461,44 +2461,14 @@
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
+			(start 2.8 -1.2)
+			(end 2.8 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "63101c1d-5a4a-48cf-8786-85a56ab4bf08")
-		)
-		(fp_line
-			(start -3.2 1.2)
-			(end -3.2 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e57de1a4-f183-4ec8-9db5-ab4200733afc")
-		)
-		(fp_line
-			(start -3.075 1.2)
-			(end -3.075 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "56bffd1b-4f56-4ec7-a6cb-66ef50bd994c")
-		)
-		(fp_line
-			(start -2.925 -1.2)
-			(end -2.925 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ea27d0b4-fd31-4f05-8dd2-c5c776d5cee0")
+			(uuid "f214b812-d25d-4072-8690-ee6d9b74bda1")
 		)
 		(fp_line
 			(start -2.8 -1.2)
@@ -2511,14 +2481,24 @@
 			(uuid "ad864b7b-8761-4d35-bd5c-cf1acac9ca76")
 		)
 		(fp_line
-			(start 2.8 -1.2)
-			(end 2.8 1.2)
+			(start -2.925 -1.2)
+			(end -2.925 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f214b812-d25d-4072-8690-ee6d9b74bda1")
+			(uuid "ea27d0b4-fd31-4f05-8dd2-c5c776d5cee0")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "63101c1d-5a4a-48cf-8786-85a56ab4bf08")
 		)
 		(fp_line
 			(start 2.8 1.2)
@@ -2530,8 +2510,28 @@
 			(layer "F.SilkS")
 			(uuid "99c6898a-190c-4a8f-9707-37983fbc6e25")
 		)
+		(fp_line
+			(start -3.075 1.2)
+			(end -3.075 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "56bffd1b-4f56-4ec7-a6cb-66ef50bd994c")
+		)
+		(fp_line
+			(start -3.2 1.2)
+			(end -3.2 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e57de1a4-f183-4ec8-9db5-ab4200733afc")
+		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 7 "Row 4")
@@ -2540,7 +2540,7 @@
 			(uuid "76cc994d-42b1-4de5-991d-c87feabbac25")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 29 "Net-(D24-A)")
@@ -2552,9 +2552,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "468cc111-a131-4346-a190-03f65f6962eb")
-		(at 106.125 84.675)
+		(at 149.5 23.75 -90)
 		(property "Reference" "D12"
-			(at 0 1.925 0)
+			(at 0 1.925 90)
 			(layer "F.SilkS")
 			(uuid "effaa332-6951-45e4-8297-a2321cac438c")
 			(effects
@@ -2565,7 +2565,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cd33e570-fdf2-4417-9a15-d7ddfde121a3")
@@ -2577,7 +2577,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2589,7 +2589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2601,7 +2601,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2613,7 +2613,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2626,7 +2626,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2643,16 +2643,6 @@
 		(sheetname "Root")
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3ea5e357-be27-4a1e-a7bd-4dad3c5967e4")
-		)
 		(fp_line
 			(start -3.2 1.2)
 			(end -3.2 -1.2)
@@ -2672,6 +2662,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "02d4018b-fc5f-4047-8fd5-c9e750a1211b")
+		)
+		(fp_line
+			(start 2.8 1.2)
+			(end -3.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9e5ac917-59a1-4227-9a20-0802da60c7ed")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3ea5e357-be27-4a1e-a7bd-4dad3c5967e4")
 		)
 		(fp_line
 			(start -2.925 -1.2)
@@ -2703,18 +2713,8 @@
 			(layer "F.SilkS")
 			(uuid "fa0c5224-977b-447b-948f-990e8c3d1047")
 		)
-		(fp_line
-			(start 2.8 1.2)
-			(end -3.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9e5ac917-59a1-4227-9a20-0802da60c7ed")
-		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 9 "Row 3")
@@ -2723,7 +2723,7 @@
 			(uuid "7b614074-9fd6-46a5-8754-9ba800379226")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 17 "Net-(D12-A)")
@@ -2735,9 +2735,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "48ba90b0-007f-4cad-85f9-53a8c4e70759")
-		(at 98.925 91.875)
+		(at 135.75 27.25 -90)
 		(property "Reference" "D6"
-			(at 0 1.925 0)
+			(at 0 1.925 90)
 			(layer "F.SilkS")
 			(uuid "b014a716-96c5-4762-b871-a58f020cb64f")
 			(effects
@@ -2748,7 +2748,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "02372bb7-9bc7-45c5-a8f6-44892873e0fb")
@@ -2760,7 +2760,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2772,7 +2772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2784,7 +2784,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2796,7 +2796,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2809,7 +2809,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2826,16 +2826,6 @@
 		(sheetname "Root")
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "449dc788-6893-4590-9636-739b319773f8")
-		)
 		(fp_line
 			(start -3.2 1.2)
 			(end -3.2 -1.2)
@@ -2855,6 +2845,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "66ab4323-37e7-43ae-af48-785133d6d513")
+		)
+		(fp_line
+			(start 2.8 1.2)
+			(end -3.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2c8aea9c-793b-4949-b3fe-08b141795ebe")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "449dc788-6893-4590-9636-739b319773f8")
 		)
 		(fp_line
 			(start -2.925 -1.2)
@@ -2886,18 +2896,8 @@
 			(layer "F.SilkS")
 			(uuid "4b6c88a6-cf52-485b-adb5-2992ef48edfc")
 		)
-		(fp_line
-			(start 2.8 1.2)
-			(end -3.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2c8aea9c-793b-4949-b3fe-08b141795ebe")
-		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "Row 1")
@@ -2906,7 +2906,7 @@
 			(uuid "e9042038-152b-4576-81cd-82f676fa7e17")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 11 "Net-(D6-A)")
@@ -2918,9 +2918,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "48bdd488-fd78-44fa-b8b5-68cca99a2bda")
-		(at 106.125 88.275)
+		(at 145.5 23.7 -90)
 		(property "Reference" "D13"
-			(at 0 1.925 0)
+			(at 0 1.925 90)
 			(layer "F.SilkS")
 			(uuid "02c6cd5a-e4aa-4c2b-a524-979adcd8fd2b")
 			(effects
@@ -2931,7 +2931,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e0259dea-232b-4f60-81bd-4bf70ebccb55")
@@ -2943,7 +2943,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2955,7 +2955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2967,7 +2967,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2979,7 +2979,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2992,7 +2992,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3009,16 +3009,6 @@
 		(sheetname "Root")
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "38c57eae-58ef-4533-8a3b-ea9b2d8b1e82")
-		)
 		(fp_line
 			(start -3.2 1.2)
 			(end -3.2 -1.2)
@@ -3038,6 +3028,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "62e042f5-0311-4512-96cf-3a5ec8dd8931")
+		)
+		(fp_line
+			(start 2.8 1.2)
+			(end -3.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "46dde17e-6cad-4466-bfc1-021db6569ce3")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "38c57eae-58ef-4533-8a3b-ea9b2d8b1e82")
 		)
 		(fp_line
 			(start -2.925 -1.2)
@@ -3069,18 +3079,8 @@
 			(layer "F.SilkS")
 			(uuid "cbf906b5-e5b7-4ca1-935d-524310b3cf6f")
 		)
-		(fp_line
-			(start 2.8 1.2)
-			(end -3.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "46dde17e-6cad-4466-bfc1-021db6569ce3")
-		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 4 "Row 2")
@@ -3089,7 +3089,7 @@
 			(uuid "0e85db5c-81b2-481f-8c86-799d770cefe8")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 18 "Net-(D13-A)")
@@ -3101,9 +3101,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "4bca56d7-40c7-4ec9-b090-7464deef9bf4")
-		(at 106.125 99.075)
+		(at 176.25 27.5 -90)
 		(property "Reference" "D16"
-			(at 0 1.925 0)
+			(at 0 1.925 90)
 			(layer "F.SilkS")
 			(uuid "41ebf680-25b0-4d13-9548-78042a05ac30")
 			(effects
@@ -3114,7 +3114,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e69d2427-8cc9-4685-b6cc-327e72c6efe7")
@@ -3126,7 +3126,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3138,7 +3138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3150,7 +3150,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3162,7 +3162,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3175,7 +3175,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3192,16 +3192,6 @@
 		(sheetname "Root")
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d0926b3f-27b7-48ff-b66e-113a9a6e0c88")
-		)
 		(fp_line
 			(start -3.2 1.2)
 			(end -3.2 -1.2)
@@ -3221,6 +3211,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "dc6abe43-b037-475c-8b8a-07203f9d1cf2")
+		)
+		(fp_line
+			(start 2.8 1.2)
+			(end -3.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "96508e26-a08e-44fe-9996-4053ade13c81")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d0926b3f-27b7-48ff-b66e-113a9a6e0c88")
 		)
 		(fp_line
 			(start -2.925 -1.2)
@@ -3252,18 +3262,8 @@
 			(layer "F.SilkS")
 			(uuid "387542a6-059a-4566-8ba9-d703bca84d3e")
 		)
-		(fp_line
-			(start 2.8 1.2)
-			(end -3.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "96508e26-a08e-44fe-9996-4053ade13c81")
-		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "Row 1")
@@ -3272,7 +3272,7 @@
 			(uuid "b560d186-7575-4da3-815e-7e745ee01e9c")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 21 "Net-(D16-A)")
@@ -3284,9 +3284,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "4f1937ec-455d-41c3-a9ad-0cdb0b2eac98")
-		(at 113.325 88.275)
+		(at 194.25 74.75 -90)
 		(property "Reference" "D21"
-			(at 0 1.925 0)
+			(at 0 1.925 90)
 			(layer "F.SilkS")
 			(uuid "cc959f3c-0e46-4910-bc93-b64b5f1aa36b")
 			(effects
@@ -3297,7 +3297,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9a0f0aec-ab38-436f-be48-88ae17fc3c17")
@@ -3309,7 +3309,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3321,7 +3321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3333,7 +3333,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3345,7 +3345,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3358,7 +3358,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3375,16 +3375,6 @@
 		(sheetname "Root")
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0c55ff99-9448-4eaf-9205-c86ab87b71fd")
-		)
 		(fp_line
 			(start -3.2 1.2)
 			(end -3.2 -1.2)
@@ -3404,6 +3394,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "aa9f6638-ebc8-4a87-bb21-d86cb34762b0")
+		)
+		(fp_line
+			(start 2.8 1.2)
+			(end -3.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b910c25e-2c44-4f49-91b0-5ddb63164937")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0c55ff99-9448-4eaf-9205-c86ab87b71fd")
 		)
 		(fp_line
 			(start -2.925 -1.2)
@@ -3435,18 +3445,8 @@
 			(layer "F.SilkS")
 			(uuid "97307736-04a1-435b-a82a-3b9273a13f2d")
 		)
-		(fp_line
-			(start 2.8 1.2)
-			(end -3.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b910c25e-2c44-4f49-91b0-5ddb63164937")
-		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "Row 1")
@@ -3455,7 +3455,7 @@
 			(uuid "eaaf338b-49c8-4c95-bdbd-7a61a123622d")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 26 "Net-(D21-A)")
@@ -3467,9 +3467,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "5f2ffc44-a27c-42af-a629-b363cf4a6d19")
-		(at 107.5 59.2 90)
+		(at 124 51.75 90)
 		(property "Reference" "D3"
-			(at 0 1.925 -90)
+			(at 0 1.925 270)
 			(layer "F.SilkS")
 			(uuid "b3f69e46-b21e-4c97-af5a-b7f41bfaaa23")
 			(effects
@@ -3480,7 +3480,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 -90)
+			(at 0 -1.925 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1309ea30-659c-4837-a529-b3819d725d24")
@@ -3650,9 +3650,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "62616a0f-d635-4b7f-be8f-6aad20c89427")
-		(at 97.5 59.2 90)
+		(at 117.75 32.75 -90)
 		(property "Reference" "D1"
-			(at 0 1.925 -90)
+			(at 0 1.925 90)
 			(layer "F.SilkS")
 			(uuid "ce96b1ef-dc7e-4e2b-8ea7-896341b6fed0")
 			(effects
@@ -3663,7 +3663,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 -90)
+			(at 0 -1.925 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5c234e93-473e-42a8-a93e-69b8f29dd203")
@@ -3675,7 +3675,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3687,7 +3687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3699,7 +3699,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3711,7 +3711,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3724,7 +3724,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3742,54 +3742,14 @@
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.8 -1.2)
-			(end 2.8 1.2)
+			(start -3.2 1.2)
+			(end -3.2 -1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "08fd1498-c7c7-4768-bc4d-d8933e193881")
-		)
-		(fp_line
-			(start -2.8 -1.2)
-			(end -2.8 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8a607ea1-ef49-4b96-aa33-8701c6746fd7")
-		)
-		(fp_line
-			(start -2.925 -1.2)
-			(end -2.925 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2dc27da6-43b4-49c4-8f5f-d71bc6e1bf3e")
-		)
-		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6e389757-105a-4a48-837f-99ddf963f732")
-		)
-		(fp_line
-			(start 2.8 1.2)
-			(end -3.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6809baa1-3ded-47a2-8c85-820cb1b50378")
+			(uuid "208364cd-79db-4c9c-b59f-9364d159dda3")
 		)
 		(fp_line
 			(start -3.075 1.2)
@@ -3802,17 +3762,57 @@
 			(uuid "c9d2185d-c933-484c-b214-e1dc169f856c")
 		)
 		(fp_line
-			(start -3.2 1.2)
-			(end -3.2 -1.2)
+			(start 2.8 1.2)
+			(end -3.2 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "208364cd-79db-4c9c-b59f-9364d159dda3")
+			(uuid "6809baa1-3ded-47a2-8c85-820cb1b50378")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6e389757-105a-4a48-837f-99ddf963f732")
+		)
+		(fp_line
+			(start -2.925 -1.2)
+			(end -2.925 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2dc27da6-43b4-49c4-8f5f-d71bc6e1bf3e")
+		)
+		(fp_line
+			(start -2.8 -1.2)
+			(end -2.8 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8a607ea1-ef49-4b96-aa33-8701c6746fd7")
+		)
+		(fp_line
+			(start 2.8 -1.2)
+			(end 2.8 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "08fd1498-c7c7-4768-bc4d-d8933e193881")
 		)
 		(pad "1" smd rect
-			(at -1.7 0 90)
+			(at -1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "Row 1")
@@ -3821,7 +3821,7 @@
 			(uuid "325e1869-a627-4c31-904d-fd3663d7cbec")
 		)
 		(pad "2" smd rect
-			(at 1.7 0 90)
+			(at 1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 2 "Net-(D1-A)")
@@ -3833,9 +3833,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "673d3092-2f94-4fd0-964f-d1d68e893515")
-		(at 113.325 81.075)
+		(at 186.5 48.1 90)
 		(property "Reference" "D19"
-			(at 0 1.925 0)
+			(at 0 1.925 270)
 			(layer "F.SilkS")
 			(uuid "4306adf9-8d8b-4e38-8ace-20b02418830c")
 			(effects
@@ -3846,7 +3846,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b3728edf-4ce7-47cf-a159-388d2bd58dc6")
@@ -3858,7 +3858,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3870,7 +3870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3882,7 +3882,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3894,7 +3894,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3907,7 +3907,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3925,44 +3925,14 @@
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
+			(start 2.8 -1.2)
+			(end 2.8 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "88b344bf-b0db-47a0-80e8-2c9993e2fdeb")
-		)
-		(fp_line
-			(start -3.2 1.2)
-			(end -3.2 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8a27fb6e-9a1f-41b1-9238-ef808da68f64")
-		)
-		(fp_line
-			(start -3.075 1.2)
-			(end -3.075 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7c81a57a-e02a-4b56-9d4f-355aaed5ef0a")
-		)
-		(fp_line
-			(start -2.925 -1.2)
-			(end -2.925 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0e2e19c5-a0c8-4e58-a3c6-c90dbd9dfe9e")
+			(uuid "8aa45511-a7b9-4ff6-aecf-0123bbecf00c")
 		)
 		(fp_line
 			(start -2.8 -1.2)
@@ -3975,14 +3945,24 @@
 			(uuid "d0d8bf9a-d51d-4dc6-b428-5b16e4f6cc68")
 		)
 		(fp_line
-			(start 2.8 -1.2)
-			(end 2.8 1.2)
+			(start -2.925 -1.2)
+			(end -2.925 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8aa45511-a7b9-4ff6-aecf-0123bbecf00c")
+			(uuid "0e2e19c5-a0c8-4e58-a3c6-c90dbd9dfe9e")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "88b344bf-b0db-47a0-80e8-2c9993e2fdeb")
 		)
 		(fp_line
 			(start 2.8 1.2)
@@ -3994,8 +3974,28 @@
 			(layer "F.SilkS")
 			(uuid "5bd4bf9b-df22-4461-a628-fd00a284720e")
 		)
+		(fp_line
+			(start -3.075 1.2)
+			(end -3.075 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7c81a57a-e02a-4b56-9d4f-355aaed5ef0a")
+		)
+		(fp_line
+			(start -3.2 1.2)
+			(end -3.2 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8a27fb6e-9a1f-41b1-9238-ef808da68f64")
+		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 7 "Row 4")
@@ -4004,7 +4004,7 @@
 			(uuid "92097304-07ed-4b4d-9281-2052642f7eb2")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 24 "Net-(D19-A)")
@@ -4016,9 +4016,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "73d6b3f4-8100-49bc-a84d-91de3948c2b9")
-		(at 113.325 95.475)
+		(at 184.25 74.7 -90)
 		(property "Reference" "D23"
-			(at 0 1.925 0)
+			(at 0 1.925 90)
 			(layer "F.SilkS")
 			(uuid "1363e20b-69c7-429a-805f-9bfdd00eeea2")
 			(effects
@@ -4029,7 +4029,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "adf4c9e5-7d0d-46ce-9043-9fbafabf1423")
@@ -4041,7 +4041,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4053,7 +4053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4065,7 +4065,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4077,7 +4077,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4090,7 +4090,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4107,16 +4107,6 @@
 		(sheetname "Root")
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2a88100c-8a58-4f5f-8197-748a3713bb8c")
-		)
 		(fp_line
 			(start -3.2 1.2)
 			(end -3.2 -1.2)
@@ -4136,6 +4126,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "cda47dcf-e019-41a0-91e5-17c7b70a715f")
+		)
+		(fp_line
+			(start 2.8 1.2)
+			(end -3.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ec470232-9a59-4fc0-8a85-0dfd86d55033")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2a88100c-8a58-4f5f-8197-748a3713bb8c")
 		)
 		(fp_line
 			(start -2.925 -1.2)
@@ -4167,18 +4177,8 @@
 			(layer "F.SilkS")
 			(uuid "8fa81383-ad10-4ee7-925e-1b0aa51277a1")
 		)
-		(fp_line
-			(start 2.8 1.2)
-			(end -3.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ec470232-9a59-4fc0-8a85-0dfd86d55033")
-		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 4 "Row 2")
@@ -4187,7 +4187,7 @@
 			(uuid "8f127cf3-82f3-4c86-ad22-c5eedcf62f1b")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 28 "Net-(D23-A)")
@@ -4199,9 +4199,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "7d65dcc7-387b-473e-9770-f16618a8b610")
-		(at 112 59.2 90)
+		(at 128 51.5 90)
 		(property "Reference" "D4"
-			(at 0 1.925 -90)
+			(at 0 1.925 270)
 			(layer "F.SilkS")
 			(uuid "3acd6bea-f18c-4693-be11-c30594aefcb9")
 			(effects
@@ -4212,7 +4212,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 -90)
+			(at 0 -1.925 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c90c5a84-6c9c-4bfd-bc6d-c8e629cad07d")
@@ -4382,9 +4382,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "881b2714-2337-4098-84f6-fa6b5874924f")
-		(at 106.125 95.475)
+		(at 161.25 42.5 90)
 		(property "Reference" "D15"
-			(at 0 1.925 0)
+			(at 0 1.925 270)
 			(layer "F.SilkS")
 			(uuid "56b0fbeb-4d40-4742-a32a-8735eaa8669b")
 			(effects
@@ -4395,7 +4395,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d71bf982-30b8-4f9b-bca9-c8c1a637d3b1")
@@ -4407,7 +4407,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4419,7 +4419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4431,7 +4431,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4443,7 +4443,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4456,7 +4456,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4474,44 +4474,14 @@
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
+			(start 2.8 -1.2)
+			(end 2.8 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c7f8d489-cd6e-4d7d-809b-2424d56b7d14")
-		)
-		(fp_line
-			(start -3.2 1.2)
-			(end -3.2 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1f413e88-e88b-4cff-8074-4bfcfa8b260d")
-		)
-		(fp_line
-			(start -3.075 1.2)
-			(end -3.075 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d14cfb02-0cbf-4ecc-a1be-b5166fcce4ee")
-		)
-		(fp_line
-			(start -2.925 -1.2)
-			(end -2.925 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5b1b5b42-6632-4177-b9b3-5efdff83108a")
+			(uuid "a8e84867-cf5a-4ea5-ae69-138f29a4531f")
 		)
 		(fp_line
 			(start -2.8 -1.2)
@@ -4524,14 +4494,24 @@
 			(uuid "611b0c03-8c60-46c0-8962-919cce63f023")
 		)
 		(fp_line
-			(start 2.8 -1.2)
-			(end 2.8 1.2)
+			(start -2.925 -1.2)
+			(end -2.925 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a8e84867-cf5a-4ea5-ae69-138f29a4531f")
+			(uuid "5b1b5b42-6632-4177-b9b3-5efdff83108a")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c7f8d489-cd6e-4d7d-809b-2424d56b7d14")
 		)
 		(fp_line
 			(start 2.8 1.2)
@@ -4543,8 +4523,28 @@
 			(layer "F.SilkS")
 			(uuid "8c39439a-70f2-438e-9b5b-be54fe74c640")
 		)
+		(fp_line
+			(start -3.075 1.2)
+			(end -3.075 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d14cfb02-0cbf-4ecc-a1be-b5166fcce4ee")
+		)
+		(fp_line
+			(start -3.2 1.2)
+			(end -3.2 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1f413e88-e88b-4cff-8074-4bfcfa8b260d")
+		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 5 "Row 5")
@@ -4553,7 +4553,7 @@
 			(uuid "789bac8e-fdb6-43cb-b220-8baa5a48ad9e")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 20 "Net-(D15-A)")
@@ -4565,9 +4565,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "9582cb70-d5f2-454f-8cde-54360b760047")
-		(at 113.325 91.875)
+		(at 189.25 74.75 -90)
 		(property "Reference" "D22"
-			(at 0 1.925 0)
+			(at 0 1.925 90)
 			(layer "F.SilkS")
 			(uuid "a8ea7516-2c5f-4e04-a0d5-880d58f2f0f4")
 			(effects
@@ -4578,7 +4578,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c4a73d92-dac8-48c4-aeec-12e3b0ff6ebc")
@@ -4590,7 +4590,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4602,7 +4602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4614,7 +4614,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4626,7 +4626,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4639,7 +4639,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4656,16 +4656,6 @@
 		(sheetname "Root")
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "75ac6292-a124-4dcc-962f-a1287886cf96")
-		)
 		(fp_line
 			(start -3.2 1.2)
 			(end -3.2 -1.2)
@@ -4685,6 +4675,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "75953e7d-9fec-4cb8-9235-7a6768604342")
+		)
+		(fp_line
+			(start 2.8 1.2)
+			(end -3.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bfb856c7-e18f-4d8b-bb4a-6f8d55b10dab")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "75ac6292-a124-4dcc-962f-a1287886cf96")
 		)
 		(fp_line
 			(start -2.925 -1.2)
@@ -4716,18 +4726,8 @@
 			(layer "F.SilkS")
 			(uuid "5424ff3a-6a52-4f35-a795-d3d022eb30c6")
 		)
-		(fp_line
-			(start 2.8 1.2)
-			(end -3.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bfb856c7-e18f-4d8b-bb4a-6f8d55b10dab")
-		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 9 "Row 3")
@@ -4736,7 +4736,7 @@
 			(uuid "e57c8886-ea30-41ac-af72-949284e0df3e")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 27 "Net-(D22-A)")
@@ -4748,9 +4748,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "9ae34e95-6373-4cb4-ae95-21f050efc176")
-		(at 106.125 73.875)
+		(at 148.75 47.25 90)
 		(property "Reference" "D9"
-			(at 0 1.925 0)
+			(at 0 1.925 270)
 			(layer "F.SilkS")
 			(uuid "7ba2b7fd-b78e-4f3c-8c90-a17c0b83a63d")
 			(effects
@@ -4761,7 +4761,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a33b5dc1-aae3-4c85-80a1-3cf6af20c6a5")
@@ -4773,7 +4773,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4785,7 +4785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4797,7 +4797,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4809,7 +4809,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4822,7 +4822,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4840,44 +4840,14 @@
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
+			(start 2.8 -1.2)
+			(end 2.8 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "122de890-2abd-4403-8505-4738b8bb8de5")
-		)
-		(fp_line
-			(start -3.2 1.2)
-			(end -3.2 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "838fc774-fbec-4d2d-bda2-9d93392a21f5")
-		)
-		(fp_line
-			(start -3.075 1.2)
-			(end -3.075 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c3c9d76d-f86d-4926-ad5c-c46fde0be7fa")
-		)
-		(fp_line
-			(start -2.925 -1.2)
-			(end -2.925 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "29df62e6-21d3-4789-857e-716c0ab7fbaa")
+			(uuid "27ff4b1b-fb6b-43f4-8187-02ca59e51308")
 		)
 		(fp_line
 			(start -2.8 -1.2)
@@ -4890,14 +4860,24 @@
 			(uuid "ed7478c7-c759-42ed-97da-c40cf59145c5")
 		)
 		(fp_line
-			(start 2.8 -1.2)
-			(end 2.8 1.2)
+			(start -2.925 -1.2)
+			(end -2.925 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "27ff4b1b-fb6b-43f4-8187-02ca59e51308")
+			(uuid "29df62e6-21d3-4789-857e-716c0ab7fbaa")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "122de890-2abd-4403-8505-4738b8bb8de5")
 		)
 		(fp_line
 			(start 2.8 1.2)
@@ -4909,8 +4889,28 @@
 			(layer "F.SilkS")
 			(uuid "b7b66e12-9434-4b51-a9e7-fa65e1c06e25")
 		)
+		(fp_line
+			(start -3.075 1.2)
+			(end -3.075 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c3c9d76d-f86d-4926-ad5c-c46fde0be7fa")
+		)
+		(fp_line
+			(start -3.2 1.2)
+			(end -3.2 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "838fc774-fbec-4d2d-bda2-9d93392a21f5")
+		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 7 "Row 4")
@@ -4919,7 +4919,7 @@
 			(uuid "07f5a1f5-48cc-422c-9ffb-159a3cc05fd7")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 14 "Net-(D9-A)")
@@ -4931,9 +4931,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "9eb88acd-cef5-42aa-ba7c-5098d857f11b")
-		(at 98.925 99.075)
+		(at 127.5 27.5 -90)
 		(property "Reference" "D8"
-			(at 0 1.925 0)
+			(at 0 1.925 90)
 			(layer "F.SilkS")
 			(uuid "eb15dc09-47b4-422c-887b-60a489e954e7")
 			(effects
@@ -4944,7 +4944,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2494df7c-2306-4e18-bafa-7c35f84ef104")
@@ -4956,7 +4956,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4968,7 +4968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4980,7 +4980,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4992,7 +4992,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5005,7 +5005,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5022,16 +5022,6 @@
 		(sheetname "Root")
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5cda6aa0-0be6-47ec-9349-d34a7ab22426")
-		)
 		(fp_line
 			(start -3.2 1.2)
 			(end -3.2 -1.2)
@@ -5051,6 +5041,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "fb7da5a5-2a7b-482d-b5e2-453532722fd1")
+		)
+		(fp_line
+			(start 2.8 1.2)
+			(end -3.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0e0c77ba-fd6c-4a4d-ae43-b70b52e53feb")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5cda6aa0-0be6-47ec-9349-d34a7ab22426")
 		)
 		(fp_line
 			(start -2.925 -1.2)
@@ -5082,18 +5092,8 @@
 			(layer "F.SilkS")
 			(uuid "37f215ee-d8ea-423d-bf43-d7609a678d10")
 		)
-		(fp_line
-			(start 2.8 1.2)
-			(end -3.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0e0c77ba-fd6c-4a4d-ae43-b70b52e53feb")
-		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 4 "Row 2")
@@ -5102,7 +5102,7 @@
 			(uuid "f79bd210-1f11-4d84-8f19-a7297064ad83")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 13 "Net-(D8-A)")
@@ -5114,9 +5114,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "ad12070a-60a3-45e6-9c2a-dc0095782443")
-		(at 113.325 84.675)
+		(at 180.75 47.85 90)
 		(property "Reference" "D20"
-			(at 0 1.925 0)
+			(at 0 1.925 270)
 			(layer "F.SilkS")
 			(uuid "30c3dfbf-f06e-4b2a-95d6-7d0262380378")
 			(effects
@@ -5127,7 +5127,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c97b79df-5a60-47a1-a132-db22365d78ab")
@@ -5139,7 +5139,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5151,7 +5151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5163,7 +5163,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5175,7 +5175,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5188,7 +5188,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5206,44 +5206,14 @@
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
+			(start 2.8 -1.2)
+			(end 2.8 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "52063eb4-774d-4f0a-b9bf-4fa7e20f6137")
-		)
-		(fp_line
-			(start -3.2 1.2)
-			(end -3.2 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "11cffd80-776f-4855-8976-e2e0472f9ed1")
-		)
-		(fp_line
-			(start -3.075 1.2)
-			(end -3.075 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3a55651b-eb51-49ea-aad8-7d5d70c55dd6")
-		)
-		(fp_line
-			(start -2.925 -1.2)
-			(end -2.925 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f07d2a75-a107-40d5-ad5e-e4d464b414ab")
+			(uuid "a017585f-9d11-439f-b902-ee445bb40978")
 		)
 		(fp_line
 			(start -2.8 -1.2)
@@ -5256,14 +5226,24 @@
 			(uuid "4e154aff-f6fe-429e-bf2f-26eb1b00880f")
 		)
 		(fp_line
-			(start 2.8 -1.2)
-			(end 2.8 1.2)
+			(start -2.925 -1.2)
+			(end -2.925 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a017585f-9d11-439f-b902-ee445bb40978")
+			(uuid "f07d2a75-a107-40d5-ad5e-e4d464b414ab")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "52063eb4-774d-4f0a-b9bf-4fa7e20f6137")
 		)
 		(fp_line
 			(start 2.8 1.2)
@@ -5275,8 +5255,28 @@
 			(layer "F.SilkS")
 			(uuid "6ccc535f-56cb-47d0-be13-93c268dd3219")
 		)
+		(fp_line
+			(start -3.075 1.2)
+			(end -3.075 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3a55651b-eb51-49ea-aad8-7d5d70c55dd6")
+		)
+		(fp_line
+			(start -3.2 1.2)
+			(end -3.2 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "11cffd80-776f-4855-8976-e2e0472f9ed1")
+		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 5 "Row 5")
@@ -5285,7 +5285,7 @@
 			(uuid "de8d6484-c9d4-42b3-8fe7-a2326fab9ef7")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 25 "Net-(D20-A)")
@@ -5297,9 +5297,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "b1200738-5931-4e1b-bc76-27004e1edddb")
-		(at 106.125 77.475)
+		(at 143.25 47.25 90)
 		(property "Reference" "D10"
-			(at 0 1.925 0)
+			(at 0 1.925 270)
 			(layer "F.SilkS")
 			(uuid "d4861b43-f8a9-4399-9b99-9b975b9c373d")
 			(effects
@@ -5310,7 +5310,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bb7114f4-7189-4298-b754-5fb6b289d809")
@@ -5322,7 +5322,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5334,7 +5334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5346,7 +5346,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5358,7 +5358,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5371,7 +5371,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5389,44 +5389,14 @@
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
+			(start 2.8 -1.2)
+			(end 2.8 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "49bbc398-c7ee-42d5-aaa2-9bbb5a5a1caf")
-		)
-		(fp_line
-			(start -3.2 1.2)
-			(end -3.2 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "46d115eb-949e-4882-89b9-84b465497b6c")
-		)
-		(fp_line
-			(start -3.075 1.2)
-			(end -3.075 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cf0e5b10-de65-4501-bd01-779ef507c994")
-		)
-		(fp_line
-			(start -2.925 -1.2)
-			(end -2.925 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8ea7560a-a7b3-4476-b82c-0f54975fed77")
+			(uuid "be95f2c5-ec42-4949-bf2d-683a61f01cf2")
 		)
 		(fp_line
 			(start -2.8 -1.2)
@@ -5439,14 +5409,24 @@
 			(uuid "e51034a7-b80e-45a3-94c9-e5a003eb2a67")
 		)
 		(fp_line
-			(start 2.8 -1.2)
-			(end 2.8 1.2)
+			(start -2.925 -1.2)
+			(end -2.925 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "be95f2c5-ec42-4949-bf2d-683a61f01cf2")
+			(uuid "8ea7560a-a7b3-4476-b82c-0f54975fed77")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "49bbc398-c7ee-42d5-aaa2-9bbb5a5a1caf")
 		)
 		(fp_line
 			(start 2.8 1.2)
@@ -5458,8 +5438,28 @@
 			(layer "F.SilkS")
 			(uuid "b4db300b-d1e3-4af9-bb1f-205bbb5b3ea5")
 		)
+		(fp_line
+			(start -3.075 1.2)
+			(end -3.075 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cf0e5b10-de65-4501-bd01-779ef507c994")
+		)
+		(fp_line
+			(start -3.2 1.2)
+			(end -3.2 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "46d115eb-949e-4882-89b9-84b465497b6c")
+		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 5 "Row 5")
@@ -5468,7 +5468,7 @@
 			(uuid "42603d2b-71b3-441e-901d-de2f90dd9bde")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 15 "Net-(D10-A)")
@@ -5480,9 +5480,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "c6fe268e-4d8a-4bb7-91b3-787581f2d295")
-		(at 106.125 81.075)
+		(at 153.75 23.75 -90)
 		(property "Reference" "D11"
-			(at 0 1.925 0)
+			(at 0 1.925 90)
 			(layer "F.SilkS")
 			(uuid "221b1682-0f21-456d-be9c-a9e605758635")
 			(effects
@@ -5493,7 +5493,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7cd6ec3c-f749-47af-b625-9dafb0f751b5")
@@ -5505,7 +5505,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5517,7 +5517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5529,7 +5529,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5541,7 +5541,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5554,7 +5554,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5571,16 +5571,6 @@
 		(sheetname "Root")
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fc0a0d2d-dfa1-4fa9-9bcd-51daeee38f9f")
-		)
 		(fp_line
 			(start -3.2 1.2)
 			(end -3.2 -1.2)
@@ -5600,6 +5590,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "d4b18dba-8ab7-4b09-9f14-0f32e328b068")
+		)
+		(fp_line
+			(start 2.8 1.2)
+			(end -3.2 1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "27408f66-b04c-4654-8ff0-d913f9d77195")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fc0a0d2d-dfa1-4fa9-9bcd-51daeee38f9f")
 		)
 		(fp_line
 			(start -2.925 -1.2)
@@ -5631,18 +5641,8 @@
 			(layer "F.SilkS")
 			(uuid "fa6cf60d-de2a-4ff8-937b-3212a263e641")
 		)
-		(fp_line
-			(start 2.8 1.2)
-			(end -3.2 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "27408f66-b04c-4654-8ff0-d913f9d77195")
-		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "Row 1")
@@ -5651,7 +5651,7 @@
 			(uuid "612da7f2-bb9c-4586-b3ae-d32bf5c441bd")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 270)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 16 "Net-(D11-A)")
@@ -5663,9 +5663,9 @@
 	(footprint "footprints:D_SOD123"
 		(layer "F.Cu")
 		(uuid "dea328dc-7245-4cc9-96c6-aa808e123541")
-		(at 106.125 91.875)
+		(at 165.25 42.7 90)
 		(property "Reference" "D14"
-			(at 0 1.925 0)
+			(at 0 1.925 270)
 			(layer "F.SilkS")
 			(uuid "926e378f-0dcd-4b33-aeca-83fd339a151a")
 			(effects
@@ -5676,7 +5676,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -1.925 0)
+			(at 0 -1.925 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "15a1659a-fed6-4f92-a9d0-69079051c032")
@@ -5688,7 +5688,7 @@
 			)
 		)
 		(property "Footprint" "footprints:D_SOD123"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5700,7 +5700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5712,7 +5712,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5724,7 +5724,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5737,7 +5737,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5755,44 +5755,14 @@
 		(sheetfile "harite.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -3.2 -1.2)
-			(end 2.8 -1.2)
+			(start 2.8 -1.2)
+			(end 2.8 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9d7eae75-992a-4aeb-afd6-2b8d57d3aa83")
-		)
-		(fp_line
-			(start -3.2 1.2)
-			(end -3.2 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a9982a21-cd9e-4273-a9d6-ccd10d2883df")
-		)
-		(fp_line
-			(start -3.075 1.2)
-			(end -3.075 -1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "adc66d1a-9a17-4c46-8a06-cd3e478fa397")
-		)
-		(fp_line
-			(start -2.925 -1.2)
-			(end -2.925 1.2)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4181dd19-c294-4589-9e1f-019d98cc3b4f")
+			(uuid "780507a7-708d-47ab-870c-9b73c2de1055")
 		)
 		(fp_line
 			(start -2.8 -1.2)
@@ -5805,14 +5775,24 @@
 			(uuid "5190cf43-37a6-44c5-ab24-b168a57b6b95")
 		)
 		(fp_line
-			(start 2.8 -1.2)
-			(end 2.8 1.2)
+			(start -2.925 -1.2)
+			(end -2.925 1.2)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "780507a7-708d-47ab-870c-9b73c2de1055")
+			(uuid "4181dd19-c294-4589-9e1f-019d98cc3b4f")
+		)
+		(fp_line
+			(start -3.2 -1.2)
+			(end 2.8 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9d7eae75-992a-4aeb-afd6-2b8d57d3aa83")
 		)
 		(fp_line
 			(start 2.8 1.2)
@@ -5824,8 +5804,28 @@
 			(layer "F.SilkS")
 			(uuid "f446b5e9-5a7a-4ca0-985c-ed6f00708203")
 		)
+		(fp_line
+			(start -3.075 1.2)
+			(end -3.075 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "adc66d1a-9a17-4c46-8a06-cd3e478fa397")
+		)
+		(fp_line
+			(start -3.2 1.2)
+			(end -3.2 -1.2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a9982a21-cd9e-4273-a9d6-ccd10d2883df")
+		)
 		(pad "1" smd rect
-			(at -1.7 0)
+			(at -1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 7 "Row 4")
@@ -5834,7 +5834,7 @@
 			(uuid "74a880ef-64bd-41f0-99d8-f5cb07c5ffcf")
 		)
 		(pad "2" smd rect
-			(at 1.7 0)
+			(at 1.7 0 90)
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 19 "Net-(D14-A)")
@@ -6567,7 +6567,7 @@
 	(footprint "footprints:SKRHADE010"
 		(layer "F.Cu")
 		(uuid "e3896027-5a5c-44ce-94fc-4b9e8df89f55")
-		(at 158.843503 31.156497 -45)
+		(at 140.27028 36.285534 -45)
 		(descr "SKRHADE010-1")
 		(tags "Switch")
 		(property "Reference" "S2"
@@ -8728,27 +8728,19 @@
 		)
 	)
 	(segment
-		(start 97.5 42.5)
-		(end 97.5 57.9)
+		(start 137.808425 33.895617)
+		(end 137.162808 33.25)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 2)
-		(uuid "3284a18f-2346-4e57-87f4-2aae817e86a8")
+		(net 12)
+		(uuid "cd4e8243-ecb1-42f8-9940-a514bc2a79b7")
 	)
 	(segment
-		(start 104.90472 42.889466)
-		(end 104.515254 42.5)
+		(start 156.315596 28.62859)
+		(end 155.838299 28.151293)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 2)
-		(uuid "9a4b3c4f-9222-4469-b9dd-229e702ecf96")
-	)
-	(segment
-		(start 104.515254 42.5)
-		(end 97.5 42.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "a3c7d375-8ad7-4b3c-b048-7e02b881f669")
+		(net 17)
+		(uuid "a8b40da6-cab2-4b05-be9e-502cc5940528")
 	)
 )
