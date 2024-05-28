@@ -5,29 +5,29 @@
 	(uuid "feb70c3f-3e34-4f8f-9694-07d231f2d237")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x04_Top_Bottom"
+		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at 1.27 8.89 0)
+			(property "Reference" "J"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x04_Top_Bottom"
-				(at 1.27 6.35 0)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "footprints:CIRQUE-TM040040"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +72,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x04_Top_Bottom_1_1"
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -118,8 +129,19 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -6.35)
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -128,52 +150,8 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -209,7 +187,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -227,7 +205,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -245,7 +223,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -263,7 +241,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -273,42 +251,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1721,9 +1663,9 @@
 			)
 		)
 	)
-	(global_label "SI"
+	(global_label "3V3"
 		(shape input)
-		(at 128.27 129.54 180)
+		(at 182.88 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1731,36 +1673,14 @@
 			)
 			(justify right)
 		)
-		(uuid "0edbf7ea-8e98-49cf-9381-c12ac3c70866")
+		(uuid "0b44611e-cd43-415f-a352-a21084a4bc55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.4705 129.54 0)
+			(at 182.88 101.7428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SO"
-		(shape input)
-		(at 140.97 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1364eba0-45db-4e24-ad71-1b7fe4afc17c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.4952 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1963,6 +1883,28 @@
 			)
 		)
 	)
+	(global_label "SI"
+		(shape input)
+		(at 190.5 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b424955-cb39-48cb-8386-1219fff9329d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5 100.0495 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Row 2"
 		(shape input)
 		(at 229.87 58.42 180)
@@ -1998,28 +1940,6 @@
 		(uuid "44a7d031-fdaf-4715-8692-cabbb194f77a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 220.9582 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SS"
-		(shape input)
-		(at 128.27 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46092d81-38aa-4204-ae15-943be6ded4bf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.8658 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,28 +1989,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCK"
-		(shape input)
-		(at 140.97 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5015ff43-d8f0-423c-b5d8-5551d4d11e41")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7047 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2183,24 +2081,24 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "SS"
 		(shape input)
-		(at 140.97 121.92 0)
+		(at 185.42 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "61b89074-d0f5-46b5-a7ce-d9d49fb76cc6")
+		(uuid "5efad878-45e1-4ab5-8113-884f4f31f332")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.8257 121.92 0)
+			(at 185.42 100.6542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2240,6 +2138,28 @@
 		(uuid "641fbf42-640d-434b-934e-bca7cd360a89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 309.3743 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 180.34 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6cce6d0e-a326-48e0-b912-61a3fa01e021")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.34 102.1057 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,6 +2407,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 193.04 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0fb540c-732a-47aa-84af-8f11394f1d32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 101.9847 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2755,9 +2697,9 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "SO"
 		(shape input)
-		(at 128.27 121.92 180)
+		(at 187.96 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2765,9 +2707,9 @@
 			)
 			(justify right)
 		)
-		(uuid "de9c956c-0a2b-4c71-9e66-0adb0e42ecee")
+		(uuid "d8c9c0a4-46a2-46ce-9272-0f6da0e1fcea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.7772 121.92 0)
+			(at 187.96 100.7752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,6 +4634,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 185.42 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eb7f1cc-439d-4f24-a494-0ed6ab5e9a3e")
+		(property "Reference" "J1"
+			(at 186.69 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Cirque Connector"
+			(at 186.69 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:Cirque-connector"
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "e0e079b3-c67d-411a-90d2-1cf8603ac296")
+		)
+		(pin "5"
+			(uuid "2dc50c8f-7380-4104-bef7-82f320f6199a")
+		)
+		(pin "2"
+			(uuid "2cf63fe0-b2e2-40a4-9204-203c1afc562f")
+		)
+		(pin "4"
+			(uuid "47cd9bed-3f7d-4112-a61f-b8ea1a6cf6a2")
+		)
+		(pin "3"
+			(uuid "766eec24-b73f-4006-9fa0-5727095a5505")
+		)
+		(pin "1"
+			(uuid "0d132e21-186e-4713-a4db-182674eee58a")
+		)
+		(instances
+			(project "harite"
+				(path "/feb70c3f-3e34-4f8f-9694-07d231f2d237"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "USBType-C:HRO-TYPE-C-31-M-12")
 		(at 318.77 114.3 180)
 		(unit 1)
@@ -5679,92 +5701,6 @@
 			(project "harite"
 				(path "/feb70c3f-3e34-4f8f-9694-07d231f2d237"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Top_Bottom")
-		(at 133.35 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d01a75c5-f66b-450c-b8c1-aa4b133298a8")
-		(property "Reference" "Cirque1"
-			(at 134.62 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Cirque"
-			(at 134.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:CIRQUE-TM040040"
-			(at 133.35 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 133.35 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "361391ad-4740-401f-a766-ce7ddf621646")
-		)
-		(pin "5"
-			(uuid "72155403-0b13-4cb2-bd4e-6bb0c8589b64")
-		)
-		(pin "1"
-			(uuid "4e39c619-7c1e-4cb3-a895-59417a1cf41e")
-		)
-		(pin "4"
-			(uuid "f54470a4-30bf-4f78-8390-8dd83c4e5bc7")
-		)
-		(pin "3"
-			(uuid "4d5ce7ae-e1d6-496b-944d-ffeaca2f5885")
-		)
-		(pin "2"
-			(uuid "159cc7dc-efcd-42c8-bdf9-e9f477fa8fcf")
-		)
-		(pin "6"
-			(uuid "027d14c1-0985-4f56-948f-b3cc518f8fe9")
-		)
-		(pin "7"
-			(uuid "79f29f6c-3db3-472b-b144-d5671a0c0c91")
-		)
-		(instances
-			(project "harite"
-				(path "/feb70c3f-3e34-4f8f-9694-07d231f2d237"
-					(reference "Cirque1")
 					(unit 1)
 				)
 			)
