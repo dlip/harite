@@ -3329,7 +3329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:SKRHADE010"
+		(property "Footprint" "footprints:SKRHADE"
 			(at 59.69 143.18 0)
 			(effects
 				(font
@@ -3725,7 +3725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:SKRHADE010"
+		(property "Footprint" "footprints:SKRHADE"
 			(at 129.54 143.18 0)
 			(effects
 				(font
@@ -4335,7 +4335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:SKRHADE010"
+		(property "Footprint" "footprints:SKRHADE"
 			(at 267.97 206.68 0)
 			(effects
 				(font
@@ -4839,7 +4839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:SKRHADE010"
+		(property "Footprint" "footprints:SKRHADE"
 			(at 199.39 143.18 0)
 			(effects
 				(font
@@ -5632,7 +5632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:SKRHADE010"
+		(property "Footprint" "footprints:SKRHADE"
 			(at 269.24 143.18 0)
 			(effects
 				(font
