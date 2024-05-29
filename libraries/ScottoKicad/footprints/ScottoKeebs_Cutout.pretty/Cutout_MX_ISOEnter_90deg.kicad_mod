@@ -35,7 +35,7 @@
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 6bf5b988-2ac4-48c8-8664-d674497c009d))
   (fp_line (start 7 7) (end 7 -7)
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp cd703691-63d2-4672-a3fc-b45c97fd50ee))
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Cutout.3dshapes/MX_Cutout.step"
+  (model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Cutout.3dshapes/MX_Cutout.step"
     (offset (xyz 0 0 -5.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

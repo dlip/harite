@@ -182,7 +182,7 @@
 		(remove_unused_layers no)
 		(uuid "ab137455-787e-40dc-8ccf-232f332bbbcb")
 	)
-	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+	(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 		(offset
 			(xyz 0 0 0)
 		)

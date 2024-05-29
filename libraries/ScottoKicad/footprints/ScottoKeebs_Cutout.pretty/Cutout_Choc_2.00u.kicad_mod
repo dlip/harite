@@ -25,7 +25,7 @@
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 1a5d80f3-692e-410e-8b09-241b62184f71))
   (fp_rect (start -7 -7) (end 7 7)
     (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp e3a7627c-7648-47d4-a460-3a75be80181d))
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Cutout.3dshapes/Choc_Cutout.step"
+  (model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Cutout.3dshapes/Choc_Cutout.step"
     (offset (xyz 0 0 -2.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

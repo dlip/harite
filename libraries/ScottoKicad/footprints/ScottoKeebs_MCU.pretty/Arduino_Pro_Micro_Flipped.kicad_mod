@@ -351,7 +351,7 @@
   (pad "22" thru_hole circle (at -7.62 -8.89 90) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (tstamp a1280e81-c029-4784-b3c6-e7bf761a7fe8))
   (pad "23" thru_hole circle (at -7.62 -11.43 90) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (tstamp 27864e1d-43a6-4d88-98ee-1a29e99404ab))
   (pad "24" thru_hole circle (at -7.62 -13.97 90) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.SilkS" "*.Mask") (tstamp ad827714-6d8a-4515-9894-4131b841f024))
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MCU.3dshapes/Arduino_Pro_Micro_Flipped.step"
+  (model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_MCU.3dshapes/Arduino_Pro_Micro_Flipped.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

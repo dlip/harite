@@ -84,7 +84,7 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "75b224f0-3010-4e8c-bf32-f95a770c96d9")
 	)
-	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
+	(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Scotto.3dshapes/Standoff.step"
 		(offset
 			(xyz 0 0 -7.6)
 		)

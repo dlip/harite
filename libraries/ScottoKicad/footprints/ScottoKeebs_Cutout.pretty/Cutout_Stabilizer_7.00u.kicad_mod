@@ -127,7 +127,7 @@
       effd1ffd-520e-4e01-9331-d1c42787757d
     )
   )
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Cutout.3dshapes/MX_Cutout.step"
+  (model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Cutout.3dshapes/MX_Cutout.step"
     (offset (xyz 0 0 -5.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

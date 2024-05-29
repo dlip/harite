@@ -217,7 +217,7 @@
 		(remove_unused_layers no)
 		(uuid "237a131f-3b80-4b21-9d02-6ebbf4ec3b74")
 	)
-	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/USB_C_918-418K2024S40000.step"
+	(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/USB_C_918-418K2024S40000.step"
 		(offset
 			(xyz 0 0 0)
 		)

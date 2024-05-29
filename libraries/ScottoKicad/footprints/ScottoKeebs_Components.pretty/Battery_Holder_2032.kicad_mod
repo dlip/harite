@@ -640,7 +640,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "36eb9a8b-59c4-4efa-9800-b18b09afd892")
 	)
-	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Battery_Holder_2032.step"
+	(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Battery_Holder_2032.step"
 		(offset
 			(xyz 0 0 0)
 		)

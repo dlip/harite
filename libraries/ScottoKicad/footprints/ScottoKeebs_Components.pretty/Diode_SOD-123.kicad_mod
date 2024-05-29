@@ -310,7 +310,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "aa0cdfce-155b-4298-ae2a-5262c9824e01")
 	)
-	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+	(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 		(offset
 			(xyz 0 0 0)
 		)

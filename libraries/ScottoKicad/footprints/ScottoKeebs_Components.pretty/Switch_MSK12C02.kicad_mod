@@ -714,7 +714,7 @@
 		(roundrect_rratio 0.15)
 		(uuid "6acb3fe7-fd5c-420b-bce8-a1391e549d5c")
 	)
-	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Switch_MSK12C02.step"
+	(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Switch_MSK12C02.step"
 		(offset
 			(xyz 0 0 -0.05)
 		)

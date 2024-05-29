@@ -33,7 +33,7 @@
   (pad "2" thru_hole oval (at 1.6 7.26 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 80894963-e706-4171-95aa-f3b4e1453944))
   (pad "3" thru_hole oval (at 1.6 4.72 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp d5c601c8-d7af-4550-b5a8-c72ff7694db7))
   (pad "4" thru_hole oval (at 1.6 2.18 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 08ca546a-73ee-4a89-9e96-926e36c5a52c))
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/OLED_128x32.step"
+  (model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/OLED_128x32.step"
     (offset (xyz 19 -6 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

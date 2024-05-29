@@ -489,7 +489,7 @@
 			(pintype "passive")
 			(uuid "4ecb0890-c8d7-4056-ad4d-0372ad65ce94")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -848,7 +848,7 @@
 			(pintype "passive")
 			(uuid "efac61e2-5112-43b2-b7de-0c3db0c51933")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1207,7 +1207,7 @@
 			(pintype "passive")
 			(uuid "784a6e2c-b9e5-4fcc-9937-10d3dbc77cd0")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2287,7 +2287,7 @@
 			(pintype "passive")
 			(uuid "49826a2a-6984-44a3-a193-d025afdddfca")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2677,7 +2677,7 @@
 			(pintype "power_out")
 			(uuid "803cb3cb-1552-4db5-a06b-c76d26846025")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MCU.3dshapes/RP2040_Zero.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_MCU.3dshapes/RP2040_Zero.step"
 			(offset
 				(xyz 0 0.6 0)
 			)
@@ -3036,7 +3036,7 @@
 			(pintype "passive")
 			(uuid "6e487bc6-5fbe-4686-993a-120433e4d342")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3638,7 +3638,7 @@
 			(pintype "passive")
 			(uuid "f6486045-94d6-4246-883b-fb80acf77fc9")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3997,7 +3997,7 @@
 			(pintype "passive")
 			(uuid "912ea6f3-86c5-4fbc-bf25-d386e5acd87b")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4356,7 +4356,7 @@
 			(pintype "passive")
 			(uuid "575c4832-f6e6-42e3-9d84-a687a327860a")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4715,7 +4715,7 @@
 			(pintype "passive")
 			(uuid "36da55b6-ed62-4279-93a5-08f74b13fa5c")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5074,7 +5074,7 @@
 			(pintype "passive")
 			(uuid "9369c275-56e1-4796-9c8f-de9a9504005d")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5433,7 +5433,7 @@
 			(pintype "passive")
 			(uuid "d8833873-b9d6-4342-9bd4-c8ece5839b9d")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5792,7 +5792,7 @@
 			(pintype "passive")
 			(uuid "72bf0882-1756-42be-b8bf-4575373010fc")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6151,7 +6151,7 @@
 			(pintype "passive")
 			(uuid "2205a11a-6875-4ad0-887d-d53393448342")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6510,7 +6510,7 @@
 			(pintype "passive")
 			(uuid "3c699786-2295-4033-b540-c2676d4b6c9e")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7154,7 +7154,7 @@
 			(pintype "passive")
 			(uuid "498878a3-fa97-4e85-9844-86ad7b23ce4f")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7513,7 +7513,7 @@
 			(pintype "passive")
 			(uuid "cd9d2109-b4c0-44c7-a7f6-00904db42bce")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7872,7 +7872,7 @@
 			(pintype "passive")
 			(uuid "2ea10cbe-6a24-4724-88b4-a2b943466461")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8231,7 +8231,7 @@
 			(pintype "passive")
 			(uuid "2aef3e31-2b12-4b16-a8e5-2c652cd8c195")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8590,7 +8590,7 @@
 			(pintype "passive")
 			(uuid "c8d7ba62-b516-45e6-a5e4-42acb239cb39")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8949,7 +8949,7 @@
 			(pintype "passive")
 			(uuid "eafbe875-4806-4bdd-86ea-364564ff49bb")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9308,7 +9308,7 @@
 			(pintype "passive")
 			(uuid "63c21c98-07c8-420d-9156-8c0a24421c66")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9667,7 +9667,7 @@
 			(pintype "passive")
 			(uuid "8c17d80e-1209-42e3-bbf6-eaf2d0550505")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10026,7 +10026,7 @@
 			(pintype "passive")
 			(uuid "5a1e8e12-b972-42d7-ae00-1a199a0bdfbe")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10385,7 +10385,7 @@
 			(pintype "passive")
 			(uuid "b4c92dfc-5844-473a-ab9b-b792db3b1851")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10744,7 +10744,7 @@
 			(pintype "passive")
 			(uuid "e95cc89d-3a4e-4a49-b909-1e919a2119e9")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+		(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)

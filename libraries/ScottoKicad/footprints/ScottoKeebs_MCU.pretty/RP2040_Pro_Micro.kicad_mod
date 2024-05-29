@@ -1300,7 +1300,7 @@
 		(remove_unused_layers no)
 		(uuid "ba5c5548-69cb-4d1b-9c7e-1a283364fad4")
 	)
-	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MCU.3dshapes/RP2040_Pro_Micro.step"
+	(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_MCU.3dshapes/RP2040_Pro_Micro.step"
 		(offset
 			(xyz 0 1.25 2.5)
 		)

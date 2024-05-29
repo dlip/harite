@@ -49,7 +49,7 @@
   (pad "2" smd rect (at -2.45 1.65) (size 1.5 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 19ff1e90-56ef-461a-889c-61ffea674474))
   (pad "3" smd rect (at 2.45 1.65) (size 1.5 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp abc776f0-6816-4443-a596-fad8645d4ac8))
   (pad "4" smd rect (at 2.45 -1.65) (size 1.5 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e6e3b1bc-4064-4031-9b80-d1df61337d0a))
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_WS2812B.step"
+  (model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/LED_WS2812B.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -133,7 +133,7 @@
   (pad "1" thru_hole circle (at -3.81 -2.54) (size 3.6 3.6) (drill 3.05) (layers "*.Cu" "*.Mask") (tstamp 2ceb7d97-58ef-4ae4-aafa-bfc99fbb1b58))
   (pad "2" thru_hole circle (at 2.54 -5.08) (size 3.6 3.6) (drill 3.05) (layers "*.Cu" "*.Mask") (tstamp 6c17b1a5-46f1-4c76-a4a2-2e2c83b9a94c))
   (pad "2" smd roundrect (at 5.32 -5.08) (size 3.55 2.5) (layers "B.Cu") (roundrect_rratio 0.1) (tstamp 8807de99-d61d-4c74-8f8e-d205dd82ce61))
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
+  (model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

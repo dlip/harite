@@ -1153,7 +1153,7 @@
 		(remove_unused_layers no)
 		(uuid "e4bcb31f-324c-4a73-ba88-4018531f5e76")
 	)
-	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MCU.3dshapes/Nice_Nano_V2.step"
+	(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_MCU.3dshapes/Nice_Nano_V2.step"
 		(offset
 			(xyz 0 1.25 2.5)
 		)

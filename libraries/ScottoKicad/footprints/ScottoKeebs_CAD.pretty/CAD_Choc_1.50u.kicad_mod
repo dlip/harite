@@ -25,12 +25,12 @@
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp a50c0789-bbc6-48c9-8d5f-cd763942182b))
   (fp_rect (start -7 -7) (end 7 7)
     (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp bc2a3256-85ae-4b7c-8753-c5a5a1266f1e))
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_CAD.3dshapes/Choc_CAD.step"
+  (model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_CAD.3dshapes/Choc_CAD.step"
     (offset (xyz 0 0 -2.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_CAD.3dshapes/Choc_1.50u_CAD.step"
+  (model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_CAD.3dshapes/Choc_1.50u_CAD.step"
     (offset (xyz 0 0 7.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 90))

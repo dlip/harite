@@ -44,7 +44,7 @@
   (pad "21" thru_hole oval (at 7.62 -5.08) (size 2.5 1.5) (drill 1 (offset 0.5 0)) (layers "*.Cu" "*.Mask") (tstamp 75b890e6-df6d-4a6e-acaa-0870cda0d189))
   (pad "22" thru_hole oval (at 7.62 -7.62) (size 2.5 1.5) (drill 1 (offset 0.5 0)) (layers "*.Cu" "*.Mask") (tstamp e4d9ec61-16f7-410d-891d-89481964ef82))
   (pad "23" thru_hole oval (at 7.62 -10.16) (size 2.5 1.5) (drill 1 (offset 0.5 0)) (layers "*.Cu" "*.Mask") (tstamp 8a11f86e-586e-495d-a11e-a1e650589934))
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MCU.3dshapes/RP2040_Zero_Flipped.step"
+  (model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_MCU.3dshapes/RP2040_Zero_Flipped.step"
     (offset (xyz 0 0.6 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

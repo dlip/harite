@@ -469,7 +469,7 @@
 		(remove_unused_layers no)
 		(uuid "d08c16d6-5bf1-4c01-89b6-029bd09060e8")
 	)
-	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/USB_C_HRO_TYPE-C-31-M-14.step"
+	(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/USB_C_HRO_TYPE-C-31-M-14.step"
 		(offset
 			(xyz 0 -6.43 0)
 		)

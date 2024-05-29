@@ -323,7 +323,7 @@
 		(remove_unused_layers no)
 		(uuid "9bff696e-f4e2-4d30-9078-7d0e4fe03cce")
 	)
-	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Button_MJTP1250.step"
+	(model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Button_MJTP1250.step"
 		(offset
 			(xyz 3.25 0 0)
 		)

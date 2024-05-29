@@ -31,12 +31,12 @@
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 4af62d15-eaa4-489c-9425-afae6887b2bf))
   (fp_line (start 7 7) (end 7 -7)
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp ce4c3741-00c8-4620-b10b-cb6d2b71f2b4))
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_CAD.3dshapes/MX_CAD.step"
+  (model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_CAD.3dshapes/MX_CAD.step"
     (offset (xyz 0 0 -5.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_CAD.3dshapes/MX_10.00u_CAD.step"
+  (model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_CAD.3dshapes/MX_10.00u_CAD.step"
     (offset (xyz 0 0 11.9))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))

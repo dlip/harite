@@ -37,7 +37,7 @@
   (pad "2" smd rect (at 2.55 -0.75) (size 1.7 0.82) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp eceb35f4-e4bc-45a6-a37c-4f2fbc5547ff))
   (pad "3" smd roundrect (at -2.55 -0.75) (size 1.7 0.82) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25) (tstamp 1c615da8-f37d-4b14-b656-bb8b50f53000))
   (pad "4" smd rect (at -2.55 0.75) (size 1.7 0.82) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp e2e59e9b-3152-410d-922a-937a73336b71))
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+  (model "${KIPRJMOD}/libraries/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
     (offset (xyz 0 0 -1.65))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 0))
