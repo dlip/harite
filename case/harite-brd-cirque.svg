@@ -5,12 +5,15 @@
    height="210.0072mm"
    viewBox="0.0000 0.0000 297.0022 210.0072"
    id="svg1291"
-   sodipodi:docname="harite-brd.svg"
+   sodipodi:docname="harite-brd-cirque.svg"
    inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs1291" />
   <sodipodi:namedview
@@ -24,10 +27,10 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.681918"
-     inkscape:cx="563.04767"
-     inkscape:cy="463.16171"
+     inkscape:cx="654.01524"
+     inkscape:cy="358.81654"
      inkscape:window-width="1918"
-     inkscape:window-height="1048"
+     inkscape:window-height="1025"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -191,29 +194,14 @@
      id="g1291"
      inkscape:label="pcb">
     <path
-       d="m 136.6842,96.5 h 28.6604"
-       id="path1260" />
-    <path
-       d="m 182.65,113.323 a 1,1 0 0 0 -0.3036,-0.7176"
-       id="path1261" />
-    <path
        d="M 114.8686,73.5603 88.3331,85.7325"
        id="path1262" />
-    <path
-       d="m 121.5658,111.75 a 1,1 0 0 0 0.7307,-0.3173"
-       id="path1263" />
-    <path
-       d="m 136.6842,96.5 a 1,1 0 0 0 -0.7307,0.3173"
-       id="path1264" />
     <path
        d="m 201.3183,128.25 a 1,1 0 0 0 -1,0.9955"
        id="path1265" />
     <path
        d="m 198.9061,160.3685 10.9728,-9.813"
        id="path1266" />
-    <path
-       d="m 182.65,144.9867 a 1,1 0 0 0 0.2918,0.706"
-       id="path1267" />
     <path
        d="m 212.7,128.25 a 1,1 0 0 0 1,-1"
        id="path1268" />
@@ -227,9 +215,6 @@
        d="m 197.5313,160.3291 a 1,1 0 0 0 1.3748,0.0394"
        id="path1271" />
     <path
-       d="m 182.65,113.323 v 31.6637"
-       id="path1272" />
-    <path
        d="M 201.3183,128.25 H 212.7"
        id="path1273" />
     <path
@@ -242,14 +227,8 @@
        d="M 180.6214,82.7287 A 1,1 0 0 0 180.9923,82.8"
        id="path1276" />
     <path
-       d="m 122.2965,111.4327 13.657,-14.6154"
-       id="path1277" />
-    <path
        d="M 180.6214,82.7287 146.4985,69.0993"
        id="path1278" />
-    <path
-       d="m 182.9418,145.6927 14.5894,14.6364"
-       id="path1279" />
     <path
        d="m 146.4985,69.0993 a 1.0002,1.0002 0 0 0 -0.5134,-0.0612"
        id="path1280" />
@@ -266,14 +245,12 @@
        d="M 88.3331,85.7326 A 1,1 0 0 0 87.75,86.6415"
        id="path1284" />
     <path
-       d="m 88.75,111.75 h 32.8158"
-       id="path1285" />
+       d="m 88.75,111.75 34.28782,0.0392 c 0,0 2.26438,-0.85809 2.68495,7.09577 0.16975,3.21019 3.60553,23.21737 23.78428,23.48591 l 29.68857,0.21662 c 0,0 0.66583,-0.44583 3.75205,3.09043 l 14.58353,14.65116"
+       id="path1285"
+       sodipodi:nodetypes="ccscccc" />
     <path
        d="M 145.9851,69.0381 115.143,73.4794"
        id="path1286" />
-    <path
-       d="M 166.0409,96.7824 A 0.9998,0.9998 0 0 0 165.3446,96.5"
-       id="path1287" />
     <path
        d="m 209.8789,150.5555 a 1,1 0 0 0 0.1867,-1.2666"
        id="path1288" />
@@ -283,8 +260,26 @@
     <path
        d="M 212.7,82.8 H 180.9923"
        id="path1290" />
-    <path
-       d="m 166.041,96.7824 16.3054,15.823"
-       id="path1291" />
   </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="cirque"
+     transform="translate(-22.354065,-6.9609889)">
+    <circle
+       style="fill:none;fill-opacity:0.479224;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+       id="path1"
+       cx="172.03185"
+       cy="125.58892"
+       r="21" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>SVG Image created as harite-brd.svg date 2024/05/29 20:48:16 </dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
