@@ -5,6 +5,7 @@ Harite is 5-way switch keyboard with dual trackpads. The word Harite is the Sumo
 ## BOM
 
 - 2 x RP2040-Zero MCU
+- 2 x Cirque 40mm Trackpads TM040040-2024-302 flat overlay
 - 2 x HRO TYPE-C-31-M-12 USB C female ports
 - 10 x SKRHADE010 5-way switches
 - 50 x 1N4148 SOD-123 Diodes
