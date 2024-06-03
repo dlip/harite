@@ -9791,7 +9791,7 @@
 		(sheetfile "harite.kicad_sch")
 		(attr through_hole)
 		(fp_text user "Cirque"
-			(at -0.5 -7 0)
+			(at -0.738 -7 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3c22850b-f692-49de-b2ab-32909e6962fb")
@@ -31272,7 +31272,7 @@
 		(sheetfile "harite.kicad_sch")
 		(attr through_hole)
 		(fp_text user "SCK"
-			(at 1.25 5 0)
+			(at -3.902382 5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "37736fc7-b4f0-48ed-a653-73843069c294")
@@ -31285,7 +31285,7 @@
 			)
 		)
 		(fp_text user "SS"
-			(at 1.25 -1 0)
+			(at -3.038 -1 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6d1b5dd5-3e79-41ed-a779-45bfbdebc4b6")
@@ -31298,7 +31298,7 @@
 			)
 		)
 		(fp_text user "Cirque"
-			(at -0.5 -7 0)
+			(at -4.038 -7 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "adc8ade6-af4a-4f78-8e46-d36991a592d3")
@@ -31311,7 +31311,7 @@
 			)
 		)
 		(fp_text user "SO"
-			(at 1.25 1 0)
+			(at -3.038 1 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b5468824-a5c2-4cf8-9c7b-dce0e0e890d8")
@@ -31324,7 +31324,7 @@
 			)
 		)
 		(fp_text user "VDD"
-			(at 1.262 -3.238 0)
+			(at -3.890382 -3.238 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f0bd5e6b-8643-42b8-bea3-fe05f9a6dedb")
@@ -31337,7 +31337,7 @@
 			)
 		)
 		(fp_text user "SI"
-			(at 1.25 3 0)
+			(at -3.038 3 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f6bf263c-d22a-4670-a27c-d689741c1b00")
@@ -31350,7 +31350,7 @@
 			)
 		)
 		(fp_text user "GND"
-			(at 1.114382 -5.159 0)
+			(at -4.038 -5.159 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fcb295ad-113f-4cd4-87b3-0d8a27314d68")
