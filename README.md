@@ -14,3 +14,9 @@ Harite is 5-way switch keyboard with dual trackpads. The word Harite is the Sumo
 - 10 x M2 5mm flat head screws for base
 - 10 x M2 4mm flat head screws for pcb
 - 20 x Knurled Insert Nuts (M2 x 3mm Length x 3.2mm OD) [example](https://www.amazon.com/dp/B07LBQFNQD)
+
+## Printables
+
+STLs for the case and joysticks are in the [printables](./printables) folder.
+
+If you want to modify anything, this is the [Onshape Project](https://cad.onshape.com/documents/b93bd8dc5e080887b7a35bc8/w/2fa13694cc5562fc6be45ae5/e/f3942d0fbdb4c55aacbbd3d2)
