@@ -17,23 +17,24 @@ Harite is 5-way switch keyboard with dual trackpads. The word Harite is the Sumo
 - 20 x Knurled Insert Nuts M2 x 3mm Length x 3.5mm outer diameter
 - 6 x insulated wires 6cm approx. to connect cirque trackpad the the PCB. I used some ethernet cable which contiains 8 wires inside and stripped the ends with an Irwin vise-grip
 - 3D printed Case and joystick caps - the STLs are in the [printables](./printables) folder. If you want to modify anything, this is the [Onshape Project](https://cad.onshape.com/documents/b93bd8dc5e080887b7a35bc8/w/2fa13694cc5562fc6be45ae5/e/f3942d0fbdb4c55aacbbd3d2)
+- Blu tak or similar to stick down Cirque trackpad
 - Soldering tools
 
 ## Steps
 
 - Git clone my [QMK Firmware](https://github.com/dlip/qmk_firmware/tree/dlip/keyboards/harite) and flash to both RP2040-Zero to ensure they aren't dead
-- Since its quite challenging, solder on the usb port. Watch this [YouTube video on drag soldering](https://www.youtube.com/watch?v=uguPxmkmaSg&t=163s&ab_channel=OffTheClack) for tips
-- Solder RP2040-Zero with headers - if the legs on the on the headers are longer than 3mm you will need to cut them shorter. Insert into the top of the pcb and slide RP2040-Zero onto it to ensure the legs are straight. You can use sticky tape on the top to hold it in place while soldering the bottom side, then remove the tape and complete the top side.
+- Since its quite challenging, solder on the usb ports on both sides. Watch this [YouTube video on drag soldering](https://www.youtube.com/watch?v=uguPxmkmaSg&t=163s&ab_channel=OffTheClack) for tips. You can then connect them with your usb cable and test the connection with a multimeter
+- Solder RP2040-Zero with headers - if the legs on the on the headers are longer than 3mm you will need to cut them shorter. Flux the pads on the bottom of the pcb and the top of the RP2040-Zero, then insert into the top of the pcb and slide RP2040-Zero onto it to ensure the legs are straight. You can use sticky tape on the top to hold it in place while soldering the bottom side, then remove the tape and complete the top side.
 - Solder 5 way switches - the side with the 'v' shape cutout goes at the top, relative to the PCB's switch label (north east for the left side and north west for the right side)
 - Solder diodes - the side with the line on the diode goes at the tip of the arrow on the PCB's label
 - Test the 5 way switches are working by connecting this half to the PC via the RP2040-Zero with the USB cable and pressing each direction then its center switch
-- Solder Cirque trackpad to the PCB, matching the labels on them. You can give this a test on the computer afterwards too
+- Solder Cirque trackpad to the PCB, matching the labels on them. I found the best position was to have the Cirque and PCB both face down, and angle the wires somewhat vertically so they don't touch or bend too much when inserting not the top cover. You can give this a test on the computer afterwards too.
 - Melt knurled insert nuts into holes in the base and top. Heat soldering iron to about 170c temperature and melt while holding the nut down with tweezers to ensure its level.
 
 ![melt-nuts.jpg](images/melt-nuts.jpg)
 
 - Screw the PCB to the 3D printed base using the M2 4mm screws
-- Put the 3D printed top over the top while feeding the Cirque trackpad through the slit and into position, following the 2 notches to ensure it has the correct rotation.
+- Put the 3D printed top over the top while feeding the Cirque trackpad through the slit and into position, following the 2 notches to ensure it has the correct rotation. Add some Blu tak to keep it from coming out.
 - Repeat the process for the other half
 - IMPORTANT: Disconnect both halves from the computer before connecting them together with the USB port on the side. You must never connect or disconnect the halves while they are connected to the computer since it may cause a power surge and fry some components.
 - Connect one half to the computer and test
