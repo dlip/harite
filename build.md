@@ -49,7 +49,10 @@ qmk flash -kb harite -km default -bl uf2-split-right
 
 #### USB Port
 
-- Since its quite challenging, solder on the usb ports on both sides. Watch this [YouTube video on drag soldering](https://www.youtube.com/watch?v=uguPxmkmaSg&t=163s&ab_channel=OffTheClack) for tips. You can then connect them with your usb cable and test the connection with a multimeter: set it to continuity mode and ensure you only hear a beep when connecting the following pairs by testing one of the pairs against every other pin.
+![USB Port](images/usb-port.jpg)
+
+- Since its quite challenging, solder on the usb ports on both sides. Watch this [YouTube video on drag soldering](https://www.youtube.com/watch?v=uguPxmkmaSg&t=163s&ab_channel=OffTheClack) for tips.
+- Test the connections with a multimeter: set it to continuity mode and ensure you only hear a beep when connecting the following pairs by testing one of the pairs against every other pin.
 
 ![USB Pairs](images/usb-pairs.jpg)
 
@@ -69,29 +72,48 @@ qmk flash -kb harite -km default -bl uf2-split-right
 
 ![RP2040-Zero Soldered](images/rp2040-soldered.jpg)
 
-- Test RP2040-Zero and connection between halves:
+#### Test RP2040-Zero and connection between halves
 
-  - IMPORTANT: You must never connect or disconnect the halves while they are connected to the computer since it may cause a power surge and fry some components.
-  - Connect halves via USB-C cable
-  - Connect either half's RP2040-Zero to the computer
-  - Run `qmk console` and check the output. If you don't see "Target connected" after a few retries there is a connection issue
+- IMPORTANT: You must never connect or disconnect the halves while they are connected to the computer since it may cause a power surge and fry some components.
+- Connect halves via USB-C cable
+- Connect either half's RP2040-Zero to the computer
+- Run `qmk console` and check the output. If you see "Target connected" after a few retries you are good to continue
 
-  ```
-    Ψ Console Connected: Dane Lipscombe harite (FEED:0000:1)
-    Dane Lipscombe:harite:1: Failed to execute slave_matrix
-    Dane Lipscombe:harite:1: Target disconnected, throttling connection attempts
-    Dane Lipscombe:harite:1: Failed to execute slave_matrix
-    Dane Lipscombe:harite:1: Target disconnected, throttling connection attempts
-    Dane Lipscombe:harite:1: Failed to execute slave_matrix
-    Dane Lipscombe:harite:1: Target disconnected, throttling connection attempts
-    Dane Lipscombe:harite:1: Target connected
-  ```
+```
+Ψ Console Connected: Dane Lipscombe harite (FEED:0000:1)
+Dane Lipscombe:harite:1: Failed to execute slave_matrix
+Dane Lipscombe:harite:1: Target disconnected, throttling connection attempts
+Dane Lipscombe:harite:1: Failed to execute slave_matrix
+Dane Lipscombe:harite:1: Target disconnected, throttling connection attempts
+Dane Lipscombe:harite:1: Failed to execute slave_matrix
+Dane Lipscombe:harite:1: Target disconnected, throttling connection attempts
+Dane Lipscombe:harite:1: Target connected
+```
 
-  - Connect GPIO pins 13 and 14 with something metal on each side, and confirm if a letter 'L' is typed to the computer screen
+- Connect GPIO pins 13 and 14 with something metal on each side, and confirm if a letter 'L' is typed to the computer screen
 
-- Solder 5 way switches - the side with the 'v' shape cutout goes at the top, relative to the PCB's switch label (north east for the left side and north west for the right side)
-- Solder diodes - the side with the line on the diode goes at the tip of the arrow on the PCB's label
-- Test the 5 way switches are working by connecting this half to the PC via the RP2040-Zero with the USB cable and pressing each direction then its center switch
+#### 5 Way Switches and Diodes
+
+- Be careful with the switch orientation: the side with the 'v' shape cutout goes at the top, relative to the PCB's switch label (north east for the left side and north west for the right side)
+
+![Switch Orientation](images/switch-orientation.jpg)
+
+- Be careful with the diode orientation: the side with the line on the diode goes at the tip of the arrow on the PCB's label
+
+![Diode Orientation](images/diode-orientation.jpg)
+
+- Prepare each set of pads by soldering one of its pads
+
+![Switches Solder Prep](images/switches-solder-prep.jpg)
+
+- Solder the first pad of each component. Ensure they are all aligned to the other pads then solder the rest of them.
+
+![Switches Complete](images/switches-complete.jpg)
+
+- Test the 5 way switches are working by connecting this half to the PC via the RP2040-Zero with the USB cable and pressing each direction then its center switch. You should see these characters typed for each direction: 'u', 'd', 'l', 'r', 'c'
+
+#### Cirque Trackpad
+
 - Solder Cirque trackpad to the PCB, matching the labels on them. I found the best position was to have the Cirque and PCB both face down, and angle the wires somewhat vertically so they don't touch or bend too much when inserting not the top cover. You can give this a test on the computer afterwards too.
 
 ### Case
