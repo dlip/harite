@@ -73,9 +73,10 @@ qmk flash -kb harite -km default -bl uf2-split-right
 ### Test Connection Between Halves
 
 - IMPORTANT: You must never connect or disconnect the halves while they are connected to the computer since it may cause a power surge and fry some components.
+- Run `qmk console`
 - Connect halves via USB-C cable
 - Connect either half's RP2040-Zero to the computer
-- Run `qmk console` and check the output. If you see "Target connected" after a few retries you are good to continue
+- If you see "Target connected" in the console after a few retries you are good to continue
 
 ```
 Ψ Console Connected: Dane Lipscombe harite (FEED:0000:1)
@@ -87,8 +88,6 @@ Dane Lipscombe:harite:1: Failed to execute slave_matrix
 Dane Lipscombe:harite:1: Target disconnected, throttling connection attempts
 Dane Lipscombe:harite:1: Target connected
 ```
-
-- Connect GPIO pins 13 and 14 with something metal on each side, and confirm if a letter 'L' is typed to the computer screen
 
 ### Soldering 5 Way Switches and Diodes
 
@@ -110,9 +109,29 @@ Dane Lipscombe:harite:1: Target connected
 
 - Test the 5 way switches are working by connecting this half to the PC via the RP2040-Zero with the USB cable and pressing each direction then its center switch. You should see these characters typed for each direction: 'u', 'd', 'l', 'r', 'c'
 
-### Cirque Trackpad
+### Soldering Cirque Trackpad
 
-- Solder Cirque trackpad to the PCB, matching the labels on them. I found the best position was to have the Cirque and PCB both face down, and angle the wires somewhat vertically so they don't touch or bend too much when inserting not the top cover. You can give this a test on the computer afterwards too.
+- Prepare wires and strip one end of each to about 2mm and bending it 90 degrees. Keep the wires a bit longer than needed as we will cut it to length afterwards. It's good to use different coloured wires to help keep track of what goes where.
+- Insert wires into the labeled cirque holes and solder in at the back
+
+![Cirque Wires](images/cirque-wires.jpg)
+
+- The Cirque orientation is different for each side, ensure the 2 cutouts point towards the RP2040-Zero
+
+![Cirque Orientation](images/cirque-orientation.jpg)
+
+- In order to ensure the wires are the correct length to allow enough slack to fit through the case in the end, I recommend taping it with the PCB to the case while soldering. Take photo of the front of the board so you can match the colours. I messed this part up many times, trust me its worth the effort.
+
+![Cirque Taped](images/cirque-tape.jpg)
+
+- Add solder to each of the 6 pads on the Cirque
+- Cut each wire to length, ensuring plenty of slack by curving it down then up as in the image
+- Strip each end and bend it 90 degrees
+
+![Cirque Soldered](images/cirque-soldered.jpg)
+
+- Connect to the computer and test you can move the cursor
+- Remove the tape and carefully push the Cirque through the slit in the case. Try not to bend the the wires connecting to the Cirque, its better to bend at the PCB side since they have a stronger weld
 
 ### Case
 
@@ -121,8 +140,21 @@ Dane Lipscombe:harite:1: Target connected
 ![melt-nuts.jpg](images/melt-nuts.jpg)
 
 - Screw the PCB to the 3D printed base using the M2 4mm screws
-- Put the 3D printed top over the top while feeding the Cirque trackpad through the slit and into position, following the 2 notches to ensure it has the correct rotation. Add some Blu tak to keep it from coming out.
-- Repeat the process for the other half
-- Connect one half to the computer and test
-- Flash my QMK engram layout to the RP2040-Zero or make your own
+
+![PCB Screwed](images/pcb-screwed.jpg)
+
+- Put the 3D printed top over the top while carefully feeding the Cirque trackpad through the slit and into position, following the 2 notches to ensure it has the correct rotation. Add some BluTak or similar to keep it from coming out.
+
+![Cirque BluTak](images/cirque-blutak.jpg)
+
+- Add joysticks
+
+![Joysticks](images/joysticks.jpg)
+
+- Test everything is still working on the computer
+- Repeat the process on the other side
+
+### Finish Line
+
+- Flash my [QMK engram layout](https://github.com/dlip/qmk_firmware/tree/dlip/keyboards/harite/keymaps/engram) to the RP2040-Zero or make your own
 - Play [Eye of the tiger](https://www.youtube.com/watch?v=CiIkBT-HFOA&ab_channel=n1ckr1vers) and start your training. Good luck!
