@@ -120,7 +120,8 @@ Dane Lipscombe:harite:1: Target connected
 
 ![Cirque Orientation](images/cirque-orientation.jpg)
 
-- In order to ensure the wires are the correct length to allow enough slack to fit through the case in the end, I recommend taping it with the PCB to the case while soldering. Take photo of the front of the board so you can match the colours. I messed this part up many times, trust me its worth the effort.
+- In order to ensure the wires are the correct length to allow enough slack to fit through the case in the end, I recommend taping it with the PCB to the case while soldering. I messed this part up many times, trust me its worth the effort.
+- Take photo of the front of the board so you can match the labels and colours. Sorry I didn't put the labels on the back, it seems so obvious upon retrospect 🤦
 
 ![Cirque Taped](images/cirque-tape.jpg)
 
