@@ -45,9 +45,7 @@ qmk flash -kb harite -km default -bl uf2-split-left
 qmk flash -kb harite -km default -bl uf2-split-right
 ```
 
-### Soldering
-
-#### USB Port
+### Soldering USB Port
 
 ![USB Port](images/usb-port.jpg)
 
@@ -56,7 +54,7 @@ qmk flash -kb harite -km default -bl uf2-split-right
 
 ![USB Pairs](images/usb-pairs.jpg)
 
-#### RP2040-Zero with headers
+### Soldering RP2040-Zero
 
 ![RP2040-Zero with headers](images/rp2040-headers.jpg)
 
@@ -72,7 +70,7 @@ qmk flash -kb harite -km default -bl uf2-split-right
 
 ![RP2040-Zero Soldered](images/rp2040-soldered.jpg)
 
-#### Test RP2040-Zero and connection between halves
+### Test Connection Between Halves
 
 - IMPORTANT: You must never connect or disconnect the halves while they are connected to the computer since it may cause a power surge and fry some components.
 - Connect halves via USB-C cable
@@ -92,7 +90,7 @@ Dane Lipscombe:harite:1: Target connected
 
 - Connect GPIO pins 13 and 14 with something metal on each side, and confirm if a letter 'L' is typed to the computer screen
 
-#### 5 Way Switches and Diodes
+### Soldering 5 Way Switches and Diodes
 
 - Be careful with the switch orientation: the side with the 'v' shape cutout goes at the top, relative to the PCB's switch label (north east for the left side and north west for the right side)
 
@@ -112,7 +110,7 @@ Dane Lipscombe:harite:1: Target connected
 
 - Test the 5 way switches are working by connecting this half to the PC via the RP2040-Zero with the USB cable and pressing each direction then its center switch. You should see these characters typed for each direction: 'u', 'd', 'l', 'r', 'c'
 
-#### Cirque Trackpad
+### Cirque Trackpad
 
 - Solder Cirque trackpad to the PCB, matching the labels on them. I found the best position was to have the Cirque and PCB both face down, and angle the wires somewhat vertically so they don't touch or bend too much when inserting not the top cover. You can give this a test on the computer afterwards too.
 
