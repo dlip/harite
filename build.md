@@ -8,7 +8,8 @@ For any known issues and improvements please see the repo's [issues](https://git
 
 - Harite PCB - order from your preferred PCB manufacturer using the gerber files in the [gerber_to_order](./gerber_to_order) folder
 - 2 x RP2040-Zero controller with headers 2.5mm height
-- 2 x Cirque 40mm Trackpads TM040040-2024-302 flat overlay
+- 2 x Cirque 40mm Trackpads TM040040-2024-302 flat overlay (optional)
+  - If you are able to test the cirque case please let me know if it was successful
 - 2 x HRO TYPE-C-31-M-12 USB C female ports
 - 10 x SKRHADE010 5-way switches
 - 50 x 1N4148 SOD-123 Diodes
