@@ -1,5 +1,9 @@
 # Harite Build Guide
 
+## Issues and Improvements
+
+For any known issues and improvements please see the repo's [issues](https://github.com/dlip/harite/issues)
+
 ## BOM
 
 - Harite PCB - order from your preferred PCB manufacturer using the gerber files in the [gerber_to_order](./gerber_to_order) folder
@@ -15,7 +19,7 @@
 - 20 x Knurled Insert Nuts M2 x 3mm Length x 3.5mm outer diameter
 - 6 x insulated wires 6cm approx. to connect cirque trackpad the the PCB. I used some ethernet cable which contiains 8 wires inside and stripped the ends with an Irwin vise-grip
 - 3D printed Case and joystick caps - the STLs are in the [printables](./printables) folder. If you want to modify anything, this is the [Onshape Project](https://cad.onshape.com/documents/b93bd8dc5e080887b7a35bc8/w/2fa13694cc5562fc6be45ae5/e/f3942d0fbdb4c55aacbbd3d2)
-- Blu tak or similar to stick down Cirque trackpad
+- Blu-tack or similar to stick down Cirque trackpad
 - Soldering tools
 
 ## Steps
@@ -111,8 +115,9 @@ Dane Lipscombe:harite:1: Target connected
 
 ### Soldering Cirque Trackpad
 
+- Note: in my photos I soldered the wires on the front side. I realised afterwards that it might have been easier to do it on the back, so I have added the labels there in the latest design. There should be enough room with the 3mm stand-offs to do it from the back but it would be great if someone could try this and let me know, I would like to make it the preferred method. Photos would be appreciated too!
 - Prepare wires and strip one end of each to about 2mm and bending it 90 degrees. Keep the wires a bit longer than needed as we will cut it to length afterwards. It's good to use different coloured wires to help keep track of what goes where.
-- Insert wires into the labeled cirque holes and solder in at the back
+- Insert wires into the labeled cirque holes and solder on the opposite side
 
 ![Cirque Wires](images/cirque-wires.jpg)
 
@@ -120,8 +125,7 @@ Dane Lipscombe:harite:1: Target connected
 
 ![Cirque Orientation](images/cirque-orientation.jpg)
 
-- In order to ensure the wires are the correct length to allow enough slack to fit through the case in the end, I recommend taping it with the PCB to the case while soldering. I messed this part up many times, trust me its worth the effort.
-- Take photo of the front of the board so you can match the labels and colours. Sorry I didn't put the labels on the back, it seems so obvious upon retrospect 🤦
+- In order to ensure the wires are the correct length to allow enough slack to fit through the case in the end, I recommend taping it and the PCB to the case while soldering. I messed this part up many times, trust me its worth the effort.
 
 ![Cirque Taped](images/cirque-tape.jpg)
 
@@ -144,9 +148,9 @@ Dane Lipscombe:harite:1: Target connected
 
 ![PCB Screwed](images/pcb-screwed.jpg)
 
-- Put the 3D printed top over the top while carefully feeding the Cirque trackpad through the slit and into position, following the 2 notches to ensure it has the correct rotation. Add some BluTak or similar to keep it from coming out.
+- Put the 3D printed top over the top while carefully feeding the Cirque trackpad through the slit and into position, following the 2 notches to ensure it has the correct rotation. Add some Blu-tack or similar to keep it from coming out.
 
-![Cirque BluTak](images/cirque-blutak.jpg)
+![Cirque Blu-tack](images/cirque-blutak.jpg)
 
 - Add joysticks
 

@@ -7,5 +7,6 @@
 - Split using USB-C to connect the halves
 - Dual Cirque 40mm trackpads
 - QMK Firmware
+- Custom PCB and case
 - The name comes from the Sumo Slap attack in Japanese
 - If you would like to make your own, checkout the detailed [build guide](build.md)
