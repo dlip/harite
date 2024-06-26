@@ -9,7 +9,7 @@ For any known issues and improvements please see the repo's [issues](https://git
 - Harite PCB - order from your preferred PCB manufacturer using the gerber files in the [gerber_to_order](./gerber_to_order) folder
 - 2 x RP2040-Zero controller with headers 2.5mm height
 - 2 x Cirque 40mm Trackpads TM040040-2024-302 flat overlay (optional)
-  - If you are able to test the cirque case please let me know if it was successful
+  - If you are able to test the no cirque case please let me know if it was successful
 - 2 x HRO TYPE-C-31-M-12 USB C female ports
 - 10 x SKRHADE010 5-way switches
 - 50 x 1N4148 SOD-123 Diodes
@@ -141,7 +141,7 @@ Dane Lipscombe:harite:1: Target connected
 
 ### Case
 
-- Melt knurled insert nuts into holes in the base and top. Heat soldering iron to about 170c temperature and melt while holding the nut down with tweezers to ensure its level.
+- Melt knurled insert nuts into holes in the base and top. Heat soldering iron to about 170c temperature and melt while holding the nut down with tweezers to ensure its level
 
 ![melt-nuts.jpg](images/melt-nuts.jpg)
 
@@ -149,7 +149,11 @@ Dane Lipscombe:harite:1: Target connected
 
 ![PCB Screwed](images/pcb-screwed.jpg)
 
-- Put the 3D printed top over the top while carefully feeding the Cirque trackpad through the slit and into position, following the 2 notches to ensure it has the correct rotation. Add some Blu-tack or similar to keep it from coming out.
+- Put the 3D printed top over the top while carefully feeding the Cirque trackpad through the slit and into position, following the 2 notches to ensure it has the correct rotation
+
+![Cirque Bend](images/cirque-bend.jpg)
+
+- Add some Blu-tack or similar to keep it from coming out
 
 ![Cirque Blu-tack](images/cirque-blutak.jpg)
 
