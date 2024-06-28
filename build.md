@@ -19,9 +19,10 @@ For any known issues and improvements please see the repo's [issues](https://git
 - 20 x M2 4mm flat head screws for pcb and hot-swapable joysticks
 - 30 x Knurled Insert Nuts M2 x 3mm Length x 3.5mm outer diameter (20 for the case and 10 for the hot-swapable joysticks)
 - 6 x insulated wires 6cm approx. to connect cirque trackpad the the PCB. I used some ethernet cable which contiains 8 wires inside and stripped the ends with an Irwin vise-grip
-- 3D printed Case and joystick caps - the STLs are in the [printables](./printables) folder. If you want to modify anything, this is the [Onshape Project](https://cad.onshape.com/documents/b93bd8dc5e080887b7a35bc8/w/2fa13694cc5562fc6be45ae5/e/f3942d0fbdb4c55aacbbd3d2)
+- 3D printed Case and joystick parts - the STLs are in the [printables](./printables) folder. If you want to modify anything, this is the [Onshape Project](https://cad.onshape.com/documents/b93bd8dc5e080887b7a35bc8/w/2fa13694cc5562fc6be45ae5/e/f3942d0fbdb4c55aacbbd3d2)
 - 10 x rubber feet for case base
 - Blu-tack or similar to stick down Cirque trackpad
+- Super glue for joytick stems
 - Soldering tools
 
 ## Steps
@@ -163,15 +164,21 @@ Dane Lipscombe:harite:1: Target connected
 
 ### Joysticks
 
-In order to ensure the top of the case can still be removed, the joysticks have a stem that is separate to the cap
+In order to ensure the top of the case can still be removed, the joysticks have a stem that is separate to the cap which is glued on
+
+![Joystick Parts](images/joystick-parts.jpg)
 
 - Test the print fits comfortably on to the stem if not you may need to modify it in OnShape and then export it to stl
 - Melt knurled insert nuts into holes in the top of the stem
-- Using a toothpick, thinly coat the inside of the switch hole at the bottom of the stem
-- Press firmly onto switch and allow to set
-- Screw on cap of choice using M2 4mm flat head screws
+- Using a toothpick, thinly coat the inside of the switch hole at the bottom of the stem with super glue
 
-![Joysticks](images/joysticks.jpg)
+![Joystick glue](images/joystick-glue.jpg)
+
+- Press firmly onto switch and allow to set
+
+![Joystick stem glued](images/joystick-stem-glued.jpg)
+
+- Screw on cap of choice using M2 4mm flat head screws
 
 ### Finish Line
 
