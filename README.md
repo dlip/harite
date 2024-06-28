@@ -8,5 +8,6 @@
 - Dual Cirque 40mm trackpads (optional - you can put a Ploopy or other small trackball in place instead)
 - QMK Firmware
 - Custom PCB and case
+- Hot-swapable joystick caps
 - The name comes from the Sumo Slap attack in Japanese
 - If you would like to make your own, checkout the detailed [build guide](build.md)
