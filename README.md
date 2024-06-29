@@ -1,4 +1,4 @@
-# Harite Keyboard
+# Harite 5-way Switch Keyboard
 
 ![Harite](images/harite.jpg)
 
