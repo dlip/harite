@@ -25,6 +25,14 @@ For any known issues and improvements please see the repo's [issues](https://git
 - Super glue for joytick stems
 - Soldering tools
 
+## Print Settings
+
+| Part          | Layer Height | Supports | Brim |
+| ------------- | ------------ | -------- | ---- |
+| Case - top    | 0.1mm        | yes      | no   |
+| Case - bottom | 0.2mm        | no       | no   |
+| Stem/Caps     | 0.1mm        | no       | yes  |
+
 ## Steps
 
 ### Firmware
@@ -172,9 +180,11 @@ In order to ensure the top of the case can still be removed, the joysticks have 
 
 - Test if the 3D printed stem with the 2mm or 2.1mm hole fits comfortably on the switch stem without too much forcing. If neither are great, you can modify it in OnShape and then export it to stl
 - Melt knurled insert nuts into holes in the top of the stem. Do your best to make it flat, and if some melt off to the side its better to discard it and make a new one since they are going to be permananty attached
-- Using a toothpick, thinly coat the inside of the switch hole at the bottom of the stem with super glue
+- Squeeze a small amount of super glue out onto a disposable surface and roll the tip of a toothpick to lightly cover it
 
 ![Joystick glue](images/joystick-glue.jpg)
+
+- Thinly coat the inside of the switch hole at the bottom of the stem with super glue
 
 ![Glue stem](images/glue-stem.jpg)
 
@@ -184,7 +194,7 @@ In order to ensure the top of the case can still be removed, the joysticks have 
 
 - Screw on cap of choice using M2 4mm flat head screws
 
-### Finish Line
+### Congratulations
 
-- Flash my [QMK engram layout](https://github.com/dlip/qmk_firmware/tree/dlip/keyboards/harite/keymaps/engram) to the RP2040-Zero or make your own
-- Play [Eye of the tiger](https://www.youtube.com/watch?v=CiIkBT-HFOA&ab_channel=n1ckr1vers) and start your training. Good luck!
+- Try my [Engram layout](https://github.com/dlip/qmk_firmware/tree/dlip/keyboards/harite/keymaps/engram) or make your own
+- Play [Eye of the tiger](https://www.youtube.com/watch?v=CiIkBT-HFOA&ab_channel=n1ckr1vers) and start your epic training montage!
