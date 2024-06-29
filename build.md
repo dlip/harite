@@ -194,6 +194,8 @@ In order to ensure the top of the case can still be removed, the joysticks have 
 
 - Screw on cap of choice using M2 4mm flat head screws
 
+![Joystick Caps](images/joystick-caps.jpg)
+
 ### Congratulations
 
 - Try my [Engram layout](https://github.com/dlip/qmk_firmware/tree/dlip/keyboards/harite/keymaps/engram) or make your own
