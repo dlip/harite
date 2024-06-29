@@ -19,7 +19,7 @@ For any known issues and improvements please see the repo's [issues](https://git
 - 20 x M2 4mm flat head screws for pcb and hot-swapable joysticks
 - 30 x Knurled Insert Nuts M2 x 3mm Length x 3.5mm outer diameter (20 for the case and 10 for the hot-swapable joysticks)
 - 6 x insulated wires 6cm approx. to connect cirque trackpad the the PCB. I used some ethernet cable which contiains 8 wires inside and stripped the ends with an Irwin vise-grip
-- 3D printed Case and joystick parts - the STLs are in the [printables](./printables) folder. If you want to modify anything, this is the [Onshape Project](https://cad.onshape.com/documents/b93bd8dc5e080887b7a35bc8/w/2fa13694cc5562fc6be45ae5/e/f3942d0fbdb4c55aacbbd3d2)
+- 3D printed Case and joystick parts - the STLs are in the [printables](./printables) folder. If you want to modify anything, this is the [Onshape Project](https://cad.onshape.com/documents/b93bd8dc5e080887b7a35bc8/w/2fa13694cc5562fc6be45ae5/e/0e302524d10cd22e841a2c15)
 - 10 x rubber feet for case base
 - Blu-tack or similar to stick down Cirque trackpad
 - Super glue for joytick stems
