@@ -176,6 +176,8 @@ In order to ensure the top of the case can still be removed, the joysticks have 
 
 ![Joystick glue](images/joystick-glue.jpg)
 
+![Glue stem](images/glue-stem.jpg)
+
 - Press firmly onto switch and allow to set
 
 ![Joystick stem glued](images/joystick-stem-glued.jpg)
