@@ -143,7 +143,7 @@ Dane Lipscombe:harite:1: Target connected
 
 ### Case
 
-- Melt knurled insert nuts into holes in the base and top. Heat soldering iron to about 170c temperature and melt while holding the nut down with tweezers to ensure its level
+- Melt knurled insert nuts into holes in the base and top. Heat soldering iron to about 180c temperature and melt while holding the nut down with tweezers to ensure its level
 
 ![melt-nuts.jpg](images/melt-nuts.jpg)
 
@@ -162,14 +162,16 @@ Dane Lipscombe:harite:1: Target connected
 - Screw on base using M2 4mm flat head screws
 - Add rubber feet
 
+![Rubber feet](images/rubber-feet.jpg)
+
 ### Joysticks
 
 In order to ensure the top of the case can still be removed, the joysticks have a stem that is separate to the cap which is glued on
 
 ![Joystick Parts](images/joystick-parts.jpg)
 
-- Test the print fits comfortably on to the stem if not you may need to modify it in OnShape and then export it to stl
-- Melt knurled insert nuts into holes in the top of the stem
+- Test if the 3D printed stem with the 2mm or 2.1mm hole fits comfortably on the switch stem without too much forcing. If neither are great, you can modify it in OnShape and then export it to stl
+- Melt knurled insert nuts into holes in the top of the stem. Do your best to make it flat, and if some melt off to the side its better to discard it and make a new one since they are going to be permananty attached
 - Using a toothpick, thinly coat the inside of the switch hole at the bottom of the stem with super glue
 
 ![Joystick glue](images/joystick-glue.jpg)
