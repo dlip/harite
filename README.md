@@ -10,5 +10,5 @@
 - Custom PCB and case
 - Hot-swapable joystick caps
 - The name comes from the Sumo Slap attack in Japanese
-- [YouTube Demonstration](https://youtu.be/vVsztPqckJc)
+- See a [video demonstration](https://youtu.be/vVsztPqckJc)
 - If you would like to make your own, checkout the detailed [build guide](build.md)
