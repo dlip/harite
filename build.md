@@ -194,6 +194,28 @@ In order to ensure the top of the case can still be removed, the joysticks have 
 
 - Screw on cap of choice using M2 4mm flat head screws
 
+### Joystick Caps
+
+There are a few different joystick caps in the printables folder
+
+#### Meta Quest Thumbstick
+
+This is my current favourite when combined with some cheap silicone thumbcaps from Ali Express
+
+![Cap Quest thumbstick](images/cap-quest-thumbstick.jpg)
+
+#### Rubber Feet Pad
+
+This is my next favourite and its easier if you already have some flat rubber feet lying around
+
+![Rubber Feet Pad](images/cap-rubber-feet.jpg)
+
+#### Rounded square / Seat
+
+This was my first 2 designs, the rounded square isn't bad but I really need some rubber grip with my dry hands.
+
+The seat is ok in the left/right directions, but down is a bit uncomfortable and up is hard to feel any feedback from the switch to know if you have pressed it or not.
+
 ![Joystick Caps](images/joystick-caps.jpg)
 
 ### Congratulations
