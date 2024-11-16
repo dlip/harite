@@ -220,5 +220,5 @@ The seat is ok in the left/right directions, but down is a bit uncomfortable and
 
 ### Congratulations
 
-- Try my [Engram layout](https://github.com/dlip/qmk_firmware/tree/dlip/keyboards/harite/keymaps/engram) or make your own
+- Try my [Stained layout](https://github.com/dlip/qmk_firmware/tree/dlip/keyboards/harite/keymaps/stained) or make your own
 - Play [Eye of the tiger](https://www.youtube.com/watch?v=CiIkBT-HFOA&ab_channel=n1ckr1vers) and start your epic training montage!
