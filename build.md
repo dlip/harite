@@ -204,10 +204,6 @@ This is my current favourite when combined with some cheap silicone thumbcaps fr
 
 ![Cap Quest thumbstick](images/cap-quest-thumbstick.jpg)
 
-#### CC2
-
-This is modified from the [CharaChorder TWO CAD file](https://github.com/CharaChorder/CAD/blob/main/CharaChorder%20Two/CC2_Primary.STEP). They are designed to have an X-Profile O-Ring fitted around them such as [this one](https://www.mcmaster.com/catalog/130/4009/90025K133). They provide [a tool](https://github.com/CharaChorder/CAD/tree/main/CharaChorder%20Two/Rubber%20Ring%20Mounting%20Tools) you can 3D print to help with fitting them.
-
 #### Rubber Feet Pad
 
 This is my next favourite and its easier if you already have some flat rubber feet lying around
