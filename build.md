@@ -198,15 +198,25 @@ In order to ensure the top of the case can still be removed, the joysticks have 
 
 There are a few different joystick caps in the printables folder
 
+#### X-Ring
+
+This is inspired by the CharaChorder 2 caps, and give the best balance of grip and tactical feedback. They are meant to have a rubber X-Ring of thickness 1.78mm and inner diameter 6.07mm fitted to them such as [these](https://www.aliexpress.com/item/1005004871516731.html) from Ali Express.
+
+![Cap X-Ring](images/cap-xring.jpg)
+
+They can be a little tricky to put on, but you can stretch the ring oven the cap with some needle nose pliers and hold it in place while using tweezers to pull it over the edges.
+
+![Cap X-Ring Hold](images/cap-xring-hold.jpg)
+
 #### Meta Quest Thumbstick
 
-This is my current favourite when combined with some cheap silicone thumbcaps from Ali Express
+This has decent grip, but it does reduce some of the tactile feedback. I still like it for thumbs and with cheap silicone Meta Quest thumbcaps from Ali Express
 
 ![Cap Quest thumbstick](images/cap-quest-thumbstick.jpg)
 
 #### Rubber Feet Pad
 
-This is my next favourite and its easier if you already have some flat rubber feet lying around
+Simple if you already have some flat rubber feet lying around
 
 ![Rubber Feet Pad](images/cap-rubber-feet.jpg)
 
