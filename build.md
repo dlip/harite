@@ -200,7 +200,7 @@ There are a few different joystick caps in the printables folder
 
 #### X-Ring
 
-This is inspired by the CharaChorder 2 caps, and give the best balance of grip and tactical feedback. They are meant to have a rubber X-Ring of thickness 1.78mm and inner diameter 6.07mm fitted to them such as [these](https://www.aliexpress.com/item/1005004871516731.html) from Ali Express.
+This is inspired by the CharaChorder 2 caps, and give the best balance of grip and tactical feedback. They are meant to have a rubber X-Ring of thickness 1.78mm and inner diameter 6.75mm fitted to them such as [these](https://www.aliexpress.com/item/1005004871516731.html) from Ali Express.
 
 ![Cap X-Ring](images/cap-xring.jpg)
 
