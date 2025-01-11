@@ -1,5 +1,7 @@
 # Harite 5-way Switch Keyboard
 
+> Harite v2 now released! <https://github.com/dlip/harite-v2>
+
 ![Harite](images/harite.jpg)
 
 - 5-way switches - SKRHADE010 rated at 1,000,000 cycles for each direction
